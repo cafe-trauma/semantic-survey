@@ -9,7 +9,7 @@ describe Option do
 
   it "can return rdf representation" do
     triple = double()
-    triple.stub(:rdf) { "a b c ." }
+    allow(triple).to receive(:rdf).and_return("a b c .")
     option = Option.new(triples: [triple])
     expect(option.rdf).to eq("a b c .")
   end
