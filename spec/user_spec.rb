@@ -15,4 +15,12 @@ describe User do
     u.select(option)
     expect(u.rdf).to eq("a b c .")
   end
+
+  it "can deselect options" do
+    u = User.new
+    option = double()
+    u.select(option)
+    u.deselect(option)
+    expect(u.options.count).to be(0)
+  end
 end

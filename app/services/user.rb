@@ -9,6 +9,10 @@ class User
     @options << option
   end
 
+  def deselect(option)
+    @options.delete(option)
+  end
+
   def rdf
     @options.map { |o| o.rdf }.join("\n")
   end

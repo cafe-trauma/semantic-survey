@@ -18,6 +18,10 @@ When("User has selected o{int}") do |int|
   @user.select(@options["o#{int}"])
 end
 
+When("User has deselected o{int}") do |int|
+  @user.deselect(@options["o#{int}"])
+end
+
 Then("We can generate RDF triples for o1") do
   @user.rdf.should == "a b c ."
 end

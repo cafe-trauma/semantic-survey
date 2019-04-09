@@ -12,3 +12,12 @@ Feature: We can generate RDF from question responses
     And User has selected o1
     And User has selected o2
     Then We should generate RDF for o1 and o2
+
+  Scenario: User unselects option
+    Given A User
+    When We have defined triples for o1
+    And We have defined triples for o2
+    And User has selected o1
+    And User has selected o2
+    And User has deselected o2
+    Then We can generate RDF triples for o1
