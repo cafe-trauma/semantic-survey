@@ -1,27 +1,34 @@
 require_relative "../app/services/user"
 
 describe User do
-  def initialized_user()
-    u = User.new
-    org = double()
-    u.activate_organization(org)
-    return u
-  end
+  context "user has active organization" do
+    let(:user) {
+      u = User.new
+      org = double()
+      u.activate_organization(org)
+      return u
+    }
 
-  it "can return rdf for selected options" do
-    u = initialized_user
-    option = double()
-    allow(option).to receive(:rdf).and_return("a b c .")
-    u.select(option)
-    expect(u.rdf).to eq("a b c .")
-  end
+    it "can return rdf for selected options" do
+      option = double()
+      allow(option).to receive(:rdf).and_return("a b c .")
+      user.select(option)
+      expect(user.rdf).to eq("a b c .")
+    end
 
-  it "can deselect options" do
-    u = initialized_user
-    option = double()
-    u.select(option)
-    u.deselect(option)
-    expect(u.responses.count).to be(0)
+    it "can deselect options" do
+      option = double()
+      user.select(option)
+      user.deselect(option)
+      expect(user.responses.count).to be(0)
+    end
+
+    it "can select option with a value" do
+      option = double()
+      allow(option).to receive(:rdf).with(5).and_return("a b 5 .")
+      user.select(option, 5)
+      expect(user.rdf).to eq("a b 5 .")
+    end
   end
 
   it "can activate organization" do
@@ -37,13 +44,5 @@ describe User do
     expect{
       u.select(o)
     }.to raise_error(NoOrganizationError)
-  end
-
-  it "can select option with a value" do
-    u = initialized_user
-    option = double()
-    allow(option).to receive(:rdf).with(5).and_return("a b 5 .")
-    u.select(option, 5)
-    expect(u.rdf).to eq("a b 5 .")
   end
 end
