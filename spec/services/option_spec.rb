@@ -1,4 +1,4 @@
-require_relative "../app/services/option"
+require_relative "../../app/services/option"
 
 describe Option do
   it "can be created with triples" do

@@ -1,4 +1,4 @@
-require_relative "../app/services/user"
+require_relative "../../app/services/user"
 
 describe User do
   context "user has active organization" do

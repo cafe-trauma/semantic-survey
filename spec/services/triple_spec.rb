@@ -1,4 +1,4 @@
-require_relative "../app/services/triple"
+require_relative "../../app/services/triple"
 
 describe Triple do
   it "can be created with s p o" do
