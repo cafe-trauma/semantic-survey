@@ -7,7 +7,10 @@ class Triple
     @o = o
   end
 
-  def rdf
+  def rdf(value=nil)
+    s = @s == :input ? value : @s
+    p = @p == :input ? value : @p
+    o = @o == :input ? value : @o
     "#{s} #{p} #{o} ."
   end
 end

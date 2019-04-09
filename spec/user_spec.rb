@@ -1,19 +1,15 @@
 require_relative "../app/services/user"
 
 describe User do
-  it "can remember selected options" do
+  def initialized_user()
     u = User.new
     org = double()
     u.activate_organization(org)
-    option = double()
-    u.select(option)
-    expect(u.options).to include(option)
+    return u
   end
 
   it "can return rdf for selected options" do
-    u = User.new
-    org = double()
-    u.activate_organization(org)
+    u = initialized_user
     option = double()
     allow(option).to receive(:rdf).and_return("a b c .")
     u.select(option)
@@ -21,13 +17,11 @@ describe User do
   end
 
   it "can deselect options" do
-    u = User.new
-    org = double()
-    u.activate_organization(org)
+    u = initialized_user
     option = double()
     u.select(option)
     u.deselect(option)
-    expect(u.options.count).to be(0)
+    expect(u.responses.count).to be(0)
   end
 
   it "can activate organization" do
@@ -43,5 +37,13 @@ describe User do
     expect{
       u.select(o)
     }.to raise_error(NoOrganizationError)
+  end
+
+  it "can select option with a value" do
+    u = initialized_user
+    option = double()
+    allow(option).to receive(:rdf).with(5).and_return("a b 5 .")
+    u.select(option, 5)
+    expect(u.rdf).to eq("a b 5 .")
   end
 end

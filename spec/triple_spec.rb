@@ -12,4 +12,9 @@ describe Triple do
     t = Triple.new("a", "b", "c")
     expect(t.rdf).to eq("a b c .")
   end
+
+  it "can return rdf with value" do
+    t = Triple.new("a", "b", :input)
+    expect(t.rdf(5)).to eq("a b 5 .")
+  end
 end

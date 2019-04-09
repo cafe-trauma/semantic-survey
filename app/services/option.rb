@@ -5,7 +5,7 @@ class Option
     @triples = triples
   end
 
-  def rdf
-    @triples.map { |t| t.rdf }.join("\n")
+  def rdf(value=nil)
+    @triples.map { |t| t.rdf(value) }.join("\n")
   end
 end

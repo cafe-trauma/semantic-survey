@@ -1,24 +1,39 @@
 class NoOrganizationError < RuntimeError
 end
 
-class User
-  attr_reader :options, :active_organization
 
-  def initialize()
-    @options = []
+class User
+  class Response
+    attr_reader :option, :value
+    def initialize(option, value=nil)
+      @option = option
+      @value = value
+    end
+
+    def rdf
+      option.rdf(value)
+    end
   end
 
-  def select(option)
+  attr_reader :responses, :active_organization
+
+  def initialize()
+    @responses = []
+  end
+
+  def select(option, value=nil)
     raise NoOrganizationError if @active_organization.nil?
-    @options << option
+    @responses << Response.new(option, value)
   end
 
   def deselect(option)
-    @options.delete(option)
+    @responses.delete_if { |response|
+      response.option == option
+    }
   end
 
   def rdf
-    @options.map { |o| o.rdf }.join("\n")
+    @responses.map { |o| o.rdf }.join("\n")
   end
 
   def activate_organization(org)

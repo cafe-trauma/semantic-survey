@@ -13,4 +13,11 @@ describe Option do
     option = Option.new(triples: [triple])
     expect(option.rdf).to eq("a b c .")
   end
+
+  it "can return rdf with values" do
+    triple = double()
+    allow(triple).to receive(:rdf).with(5).and_return("a b 5 .")
+    option = Option.new(triples: [triple])
+    expect(option.rdf(5)).to eq("a b 5 .")
+  end
 end

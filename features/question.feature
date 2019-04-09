@@ -1,11 +1,11 @@
 Feature: We can generate RDF from question responses
-  Scenario: User has selected an option for an organization
+  Scenario: User has selected an option
     Given A User with an organization
     When We have defined triples for o1
     And User has selected o1
     Then We can generate RDF triples for o1
 
-  Scenario: Generate all RDF for a User
+  Scenario: User has selected multiple options
     Given A User with an organization
     When We have defined triples for o1
     And We have defined triples for o2
@@ -22,13 +22,8 @@ Feature: We can generate RDF from question responses
     And User has deselected o2
     Then We can generate RDF triples for o1
 
-  Scenario: User activates organization
-    Given A User
-    And An Organization
-    When User selects organization
-    Then User should have organization
-
-  Scenario: User without organization can't select options
-    Given A User
-    When We have defined triples for o1
-    Then We should not be able to select o1
+  Scenario: User selects option with values
+    Given A User with an organization
+    When We have defined a triple with input
+    And User has selected input with 5
+    Then We can generate RDF with correct value of 5
