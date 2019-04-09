@@ -1,0 +1,11 @@
+no_value:
+  s: "a"
+  p: "b"
+  o: "c"
+  option: no_option
+
+yes_value:
+  s: "a"
+  p: "b"
+  o:
+  option: yes_option

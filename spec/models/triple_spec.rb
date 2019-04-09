@@ -1,20 +1,15 @@
 require 'rails_helper'
 
 RSpec.describe Triple, type: :model do
-  it "can be created with s p o" do
-    t = Triple.from_strings("a", "b", "c")
-    expect(t.s).to eq("a")
-    expect(t.p).to eq("b")
-    expect(t.o).to eq("c")
-  end
-
+  fixtures :all
+  
   it "can return own rdf representation" do
-    t = Triple.from_strings("a", "b", "c")
+    t = triples(:no_value)
     expect(t.rdf).to eq("a b c .")
   end
 
   it "can return rdf with value" do
-    t = Triple.from_strings("a", "b", Triple::Value)
+    t = triples(:yes_value)
     expect(t.rdf(5)).to eq("a b 5 .")
   end
 end

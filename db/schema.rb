@@ -10,14 +10,30 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_04_09_193117) do
+ActiveRecord::Schema.define(version: 2019_04_09_195944) do
+
+  create_table "options", force: :cascade do |t|
+    t.integer "question_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["question_id"], name: "index_options_on_question_id"
+  end
+
+  create_table "questions", force: :cascade do |t|
+    t.string "text"
+    t.string "q_type"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "triples", force: :cascade do |t|
+    t.integer "option_id"
     t.string "s"
     t.string "p"
     t.string "o"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.index ["option_id"], name: "index_triples_on_option_id"
   end
 
 end
