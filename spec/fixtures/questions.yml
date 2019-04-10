@@ -1,3 +1,4 @@
 q1:
-  text: Hello World
+  text: test question 
   q_type: yesno
+  category: test-category
