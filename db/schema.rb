@@ -14,6 +14,7 @@ ActiveRecord::Schema.define(version: 2019_04_09_195944) do
 
   create_table "options", force: :cascade do |t|
     t.integer "question_id"
+    t.string "text"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["question_id"], name: "index_options_on_question_id"
@@ -22,6 +23,8 @@ ActiveRecord::Schema.define(version: 2019_04_09_195944) do
   create_table "questions", force: :cascade do |t|
     t.string "text"
     t.string "q_type"
+    t.string "category"
+    t.string "short_name"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
