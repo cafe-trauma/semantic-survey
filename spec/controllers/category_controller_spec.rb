@@ -8,4 +8,12 @@ RSpec.describe CategoryController, type: :controller do
     get :show, params: {:category => "test-category"}
     expect(response.body).to include("test question")
   end
+
+  it "renders correct template for given category" do
+    skip
+  end
+
+  it "redirects to home for missing templates" do
+    skip
+  end
 end
