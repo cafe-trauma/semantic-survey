@@ -25,6 +25,7 @@ ActiveRecord::Schema.define(version: 2019_04_09_195944) do
     t.string "q_type"
     t.string "category"
     t.string "short_name"
+    t.integer "order"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

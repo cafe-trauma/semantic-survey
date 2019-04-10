@@ -5,7 +5,7 @@ class CreateQuestions < ActiveRecord::Migration[5.2]
       t.string :q_type
       t.string :category
       t.string :short_name
-      t.int :order
+      t.integer :order
 
       t.timestamps
     end

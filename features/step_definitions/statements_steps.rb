@@ -5,16 +5,15 @@ end
 
 When("We have defined triples for o1") do
   @options ||= {}
-  q = Question.create!
-  o = Option.create!(:question => q)
+  @q = Question.create!(:text => "question text", :category => "test-category")
+  o = Option.create!(:question => @q, :text => "option o1 text")
   t = Triple.create!(:s => "a", :p => "b", :o => "c", :option => o)
   @options["o1"] = o
 end
 
 When("We have defined triples for o2") do
   @options ||= {}
-  q = Question.create!
-  o = Option.create!(:question => q)
+  o = Option.create!(:question => @q, :text => "option o2 text")
   t = Triple.create!(:s => "c", :p => "d", :o => "e", :option => o)
   @options["o2"] = o
 end
