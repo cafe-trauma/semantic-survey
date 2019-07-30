@@ -1,5 +1,5 @@
 When("The user navigates to the correct category") do
-  visit "questionnaire/test-category"
+  visit "/questionnaire/test-category"
   @content = page.source
 end
 
@@ -9,13 +9,13 @@ end
 
 When("The user inputs text") do
   within(:css, "#q2") do
-    fill_in('Response', :with => 'my unique answer')
+    fill_in('question_response', :with => 'my unique answer')
   end
 end
 
 When("The user submits") do
   within(:css, "#q2") do
-    click('Submit')
+    click_on('Update Question')
   end
 end
 
