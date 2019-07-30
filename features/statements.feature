@@ -24,6 +24,6 @@ Feature: We can generate RDF from question responses
 
   Scenario: User selects option with values
     Given A User with an organization
-    When We have defined a triple with input
-    And User has selected input with 5
+    And We have defined a triple with input
+    When User has selected input with 5
     Then We can generate RDF with correct value of 5

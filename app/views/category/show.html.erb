@@ -1,5 +1,7 @@
 <h1>Category: <%= @category %></h1>
 
 <% @questions.each do |question| %>
-  <%= question.text %>
+  <div class="question">
+    <%= question.text %>
+  </div>
 <% end %>
