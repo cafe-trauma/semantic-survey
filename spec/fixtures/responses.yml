@@ -1,0 +1,7 @@
+o1q1:
+  organization: o1
+  option: yes_option
+
+o2q1:
+  organization: o1
+  option: no_option

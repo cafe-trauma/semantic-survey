@@ -1,6 +1,6 @@
 Given("A User with an organization") do
   @user = User.new
-  @user.activate_organization(Organization.new)
+  @user.activate_organization(Organization.create!(:name => "Cucumber Org"))
 end
 
 When("We have defined triples for o1") do

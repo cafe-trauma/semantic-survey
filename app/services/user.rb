@@ -3,18 +3,6 @@ end
 
 
 class User
-  class Response
-    attr_reader :option, :value
-    def initialize(option, value=nil)
-      @option = option
-      @value = value
-    end
-
-    def rdf
-      option.rdf(value)
-    end
-  end
-
   attr_reader :responses, :active_organization
 
   def initialize()
@@ -23,7 +11,9 @@ class User
 
   def select(option, value=nil)
     raise NoOrganizationError if @active_organization.nil?
-    @responses << Response.new(option, value)
+    @responses << Response.create!(:organization => @active_organization,
+                                   :option => option,
+                                   :text_value => value)
   end
 
   def deselect(option)

@@ -3,3 +3,6 @@ yes_option:
 
 no_option:
   question: q1
+
+text_option:
+  question: q2

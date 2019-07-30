@@ -10,7 +10,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2019_04_09_195944) do
+ActiveRecord::Schema.define(version: 2019_07_30_202046) do
 
   create_table "options", force: :cascade do |t|
     t.integer "question_id"
@@ -18,6 +18,12 @@ ActiveRecord::Schema.define(version: 2019_04_09_195944) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.index ["question_id"], name: "index_options_on_question_id"
+  end
+
+  create_table "organizations", force: :cascade do |t|
+    t.text "name"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
   end
 
   create_table "questions", force: :cascade do |t|
@@ -28,6 +34,16 @@ ActiveRecord::Schema.define(version: 2019_04_09_195944) do
     t.integer "order"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+  end
+
+  create_table "responses", force: :cascade do |t|
+    t.integer "organization_id"
+    t.integer "option_id"
+    t.text "text_value"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.index ["option_id"], name: "index_responses_on_option_id"
+    t.index ["organization_id"], name: "index_responses_on_organization_id"
   end
 
   create_table "triples", force: :cascade do |t|
