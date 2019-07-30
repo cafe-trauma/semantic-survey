@@ -10,10 +10,12 @@ RSpec.describe CategoryController, type: :controller do
   end
 
   it "renders correct template for given category" do
-    skip
+    get :show, params: {:category => "test-category"}
+    expect(response).to render_template('category/test-category')
   end
 
   it "redirects to home for missing templates" do
-    skip
+    get :show, params: {:category => "missing-category"}
+    expect(response).to redirect_to '/'
   end
 end

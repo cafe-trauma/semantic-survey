@@ -1,4 +1,11 @@
 q1:
-  text: test question 
+  text: test question?
   q_type: yesno
   category: test-category
+  short_name: q1
+
+q2:
+  text: a text question
+  q_type: text
+  category: test-category
+  short_name: q2
