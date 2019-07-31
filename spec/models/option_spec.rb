@@ -12,4 +12,10 @@ RSpec.describe Option, type: :model do
     option = options(:yes_option)
     expect(option.rdf(5)).to eq("a b 5 .")
   end
+
+  it "can return response for an organization" do
+    option = options(:yes_option)
+    org = organizations(:o1)
+    expect(option.response(org)).to eq(responses(:o1q1))
+  end
 end

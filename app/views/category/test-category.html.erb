@@ -3,6 +3,7 @@
 <% @questions.each do |question| %>
   <div class="question" id="<%= question.short_name %>">
     <span><%= question.text %> - <%= question.id %></span>
+    <%= link_to 'Q', question_path(question) %>
     <%= form_with(model: question, local: true) do |form| %>
       <%= form.label :response %><br>
       <%= form.text_field :response %>
