@@ -5,7 +5,7 @@ class CategoryController < ApplicationController
     redirect_to '/' if @questions.empty?
     if @category == 'test-category' then
       @org = Organization.first
-      request.session[:active_organization] = @org
+      request.session[:active_organization] = @org.id
     end
     if lookup_context.exists?(@category, prefixes='category')
       return render @category, prefixes: 'category'

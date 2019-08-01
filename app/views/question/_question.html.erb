@@ -4,10 +4,10 @@
     <% question.options.each do |option| %>
       <% if question.q_type == 'text' %>
         <%= form.label option.text %><br>
-        <%= form.text_field(option, :value => option.text_response(@org)) %>
+        <%= form.text_field(option.id, :value => option.text_response(@org)) %>
       <% end %>
       <% if question.q_type == 'radio' %>
-        <%= form.radio_button(option, option.text, options: {:checked => option.selected(@org)}) %>
+        <%= form.radio_button(option.id, option.text, options: {:checked => option.selected(@org)}) %>
         <%= form.label option.text %><br>
       <% end %>
     <% end %>
