@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+
+o1 = Organization.create!(name: "Dev Org")
+
+q1 = Question.create!(text: "Test question?", q_type: "radio", category: "test-category", short_name: "q1")
+Option.create!(question: q1, text: "yes")
+Option.create!(question: q1, text: "no")

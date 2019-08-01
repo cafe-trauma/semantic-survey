@@ -1,5 +1,5 @@
 <div class="question" id="<%= question.short_name %>">
-  <%= form_with(model: question, local: true) do |form| %>
+  <%= form_with(model: question) do |form| %>
     <%= question.text %><br>
     <% question.options.each do |option| %>
       <% if question.q_type == 'text' %>
@@ -7,8 +7,9 @@
         <%= form.text_field(option.id, :value => option.text_response(@org)) %>
       <% end %>
       <% if question.q_type == 'radio' %>
-        <%= form.radio_button(option.id, option.text, options: {:checked => option.selected(@org)}) %>
-        <%= form.label option.text %><br>
+        <%= form.label option.text %>
+        <%= form.radio_button('radio', option.id, checked: option.selected(@org)) %><br>
+        <pre><%= option.selected(@org) %></pre>
       <% end %>
     <% end %>
     <%= form.submit %>
