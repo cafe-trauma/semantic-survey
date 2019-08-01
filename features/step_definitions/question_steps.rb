@@ -9,7 +9,7 @@ end
 
 When("The user inputs text") do
   within(:css, "#q2") do
-    fill_in('question_response', :with => 'my unique answer')
+    find('input[type="text"]').set('my unique answer')
   end
 end
 

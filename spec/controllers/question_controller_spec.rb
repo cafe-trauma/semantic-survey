@@ -1,14 +1,6 @@
 require 'rails_helper'
 
 RSpec.describe QuestionController, type: :controller do
-  render_views
-
-  it "renders the question" do
-    q = Question.create!(:text => "test question", :category => "test-category")
-    get :show, params: {:id => q.id}
-    expect(response.body).to include("test question")
-  end
-
   it "allows question answers when organization exists" do
     q = Question.create!(:text => "a question to answer", :category => "test-category")
     o = Organization.create!(:name => "Spec organization")

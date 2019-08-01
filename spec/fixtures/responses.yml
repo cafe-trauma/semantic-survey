@@ -3,5 +3,10 @@ o1q1:
   option: yes_option
 
 o2q1:
-  organization: o1
+  organization: o2
   option: no_option
+
+o1q2:
+  organization: o1
+  option: text_option
+  text_value: answer

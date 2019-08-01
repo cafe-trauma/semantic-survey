@@ -1,9 +1,0 @@
-<div class="question" id="<%= @question.short_name %>">
-  <%= form_with(model: @question, local: true) do |form| %>
-    <%= @question.text %>
-    <%= form.label :response %><br>
-    <%= form.text_field :response %>
-    <%= form.submit %>
-  <% end %>
-</div>
-<%= @responses.inspect %>

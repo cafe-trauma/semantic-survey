@@ -1,6 +1,6 @@
 q1:
   text: test question?
-  q_type: yesno
+  q_type: radio
   category: test-category
   short_name: q1
 

@@ -1,8 +1,11 @@
 yes_option:
+  text: yes
   question: q1
 
 no_option:
+  text: no
   question: q1
 
 text_option:
+  text: Response
   question: q2

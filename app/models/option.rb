@@ -9,4 +9,13 @@ class Option < ApplicationRecord
   def response(organization)
     Response.find_by(organization: organization, option: self)
   end
+
+  def selected(organization)
+    Response.where(organization: organization, option: self).any?
+  end
+
+  def text_response(organization)
+    resp = response(organization)
+    return resp.text_value unless resp.nil?
+  end
 end
