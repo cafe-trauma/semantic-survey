@@ -1,9 +1,9 @@
 yes_option:
-  text: yes
+  text: Yes
   question: q1
 
 no_option:
-  text: no
+  text: No
   question: q1
 
 text_option:
@@ -29,3 +29,11 @@ b_option:
 c_option:
   text: C
   question: q4
+
+y_option:
+  text: "Yes"
+  question: q5
+
+n_option:
+  text: "No"
+  question: q5

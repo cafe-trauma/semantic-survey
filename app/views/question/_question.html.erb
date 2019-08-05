@@ -8,8 +8,7 @@
       <% end %>
       <% if question.q_type == 'radio' %>
         <%= form.label option.text %>
-        <%= form.radio_button('radio', option.id, checked: option.selected(@org), name: option.text) %><br>
-        <pre><%= option.selected(@org) %></pre>
+        <%= form.radio_button('radio', option.id, checked: option.selected(@org)) %><br>
       <% end %>
     <% end %>
     <% if question.q_type == 'select' %>

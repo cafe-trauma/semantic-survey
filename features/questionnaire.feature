@@ -10,29 +10,29 @@ Feature: Users can view question and give responses through the browser
   Scenario: User answers text question and reloads and answer persists
     When The user navigates to the correct category
     And The user inputs text
-    And The user submits
+    And The user submits q2
     And The user navigates to the correct category
     Then The user should still see their answer
 
   Scenario: User answers radio question and reloads and answer persists
     When The user navigates to the correct category
-    And The user picks yes
-    And The user submits
+    And The user picks first button
+    And The user submits q5
     And The user navigates to the correct category
-    Then yes should be selected
+    Then the first button should be checked
 
   Scenario: User answers select question and reloads and answer persists
     When The user navigates to the correct category
-    And The user picks "A option"
-    And The user submits
+    And The user picks "first"
+    And The user submits q3
     And The user navigates to the correct category
-    Then "A option" should be selected
+    Then "first" should be selected
 
   Scenario: User answers checkbox question and reloads and answer persists
     When The user navigates to the correct category
     And The user picks "A"
     And The user picks "B"
-    And The user submits
+    And The user submits q4
     And The user navigates to the correct category
-    Then "A" should be selected
-    And "B" should be selected
+    Then "A" should be checked
+    And "B" should be checked

@@ -16,3 +16,8 @@ q2 = Question.create!(text: "Select question", q_type: "select", category: "test
 Option.create!(question: q2, text: "Option A")
 Option.create!(question: q2, text: "Another Option")
 Option.create!(question: q2, text: "Yet another Option")
+
+q3 = Question.create!(text: "Select question", q_type: "checkbox", category: "test-category", short_name: "q3")
+Option.create!(question: q3, text: "A")
+Option.create!(question: q3, text: "B")
+Option.create!(question: q3, text: "C")

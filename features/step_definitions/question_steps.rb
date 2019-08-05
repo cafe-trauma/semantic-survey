@@ -1,5 +1,4 @@
 When("The user navigates to the correct category") do
-  puts(Question.all.inspect)
   visit "/questionnaire/test-category"
   @content = page.source
 end
@@ -10,17 +9,15 @@ When("The user inputs text") do
   end
 end
 
-When("The user submits") do
-  within(:css, "#q2") do
+When("The user submits q{int}") do |int|
+  within(:css, "#q#{int}") do
     click_on('Update Question')
   end
 end
 
-When("The user picks yes") do
-  q1 = Question.find_by(short_name: "q1")
-  puts(q1.options.inspect)
-  within(:css, "#q1") do
-    choose('Yes')
+When("The user picks first button") do
+  within(:css, "#q5") do
+    first(:xpath, './/input[@type="radio"]').click
   end
 end
 
@@ -36,12 +33,18 @@ Then("The user should still see their answer") do
   expect(@content).to include("my unique answer")
 end
 
-Then("yes should be selected") do
-  expect(@content).to have_checked_field('Yes')
+Then("{string} should be selected") do |string|
+  expect(@content).to have_select('question_select', selected: string)
 end
 
-Then("{string} should be selected") do |string|
-  expect(@content).to have_selected(string)
+Then("the first button should be checked") do
+  within(:css, "#q5") do
+    expect(first(:xpath, './/input[@type="radio"]')).to be_checked()
+  end
+end
+
+Then("{string} should be checked") do |string|
+  expect(@content).to have_checked_field(string)
 end
 
 Then("The user sees the question text") do

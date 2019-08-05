@@ -21,3 +21,9 @@ q4:
   q_type: checkbox
   category: test-category
   short_name: q4
+
+q5:
+  text: a radio question
+  q_type: radio
+  category: test-category
+  short_name: q5
