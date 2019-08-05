@@ -10,6 +10,10 @@
         <%= form.label option.text %>
         <%= form.radio_button('radio', option.id, checked: option.selected(@org)) %><br>
       <% end %>
+      <% if question.q_type == 'checkbox' %>
+        <%= form.label option.text %>
+        <%= check_box_tag('question[' + option.id.to_s + ']', option.text, option.selected(@org)) %><br>
+      <% end %>
     <% end %>
     <% if question.q_type == 'select' %>
       <%= form.select(:select) do %>

@@ -25,6 +25,10 @@ When("The user picks {string}") do |string|
   select(string)
 end
 
+When("The user checks {string}") do |string|
+  find(:xpath, ".//input[@value='#{string}']").click
+end
+
 Then("The user sees multiple questions") do
   expect(@content).to have_selector('.question', minimum: 2)
 end
@@ -44,7 +48,11 @@ Then("the first button should be checked") do
 end
 
 Then("{string} should be checked") do |string|
-  expect(@content).to have_checked_field(string)
+  expect(first(:xpath, ".//input[@value='#{string}']")).to be_checked()
+end
+
+Then("{string} should not be checked") do |string|
+  expect(first(:xpath, ".//input[@value='#{string}']")).not_to be_checked()
 end
 
 Then("The user sees the question text") do

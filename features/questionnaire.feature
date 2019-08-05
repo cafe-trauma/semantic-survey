@@ -30,9 +30,10 @@ Feature: Users can view question and give responses through the browser
 
   Scenario: User answers checkbox question and reloads and answer persists
     When The user navigates to the correct category
-    And The user picks "A"
-    And The user picks "B"
+    And The user checks "A"
+    And The user checks "B"
     And The user submits q4
     And The user navigates to the correct category
     Then "A" should be checked
     And "B" should be checked
+    And "C" should not be checked

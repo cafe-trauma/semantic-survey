@@ -16,6 +16,14 @@ class QuestionController < ApplicationController
       end
       return true
     end
+    if @question.q_type == 'checkbox' then
+      puts "Hit a checkbox"
+      params[:question].each do |option_id, text|
+        option = Option.find(option_id)
+        Response.create!(organization: org, option: option) if option.text == text
+      end
+      return true
+    end
     if @question.q_type == 'radio' then
       if params[:question].has_key? :radio then
         option = Option.find(params[:question][:radio])
