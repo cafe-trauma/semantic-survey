@@ -11,3 +11,8 @@ o1 = Organization.create!(name: "Dev Org")
 q1 = Question.create!(text: "Test question?", q_type: "radio", category: "test-category", short_name: "q1")
 Option.create!(question: q1, text: "yes")
 Option.create!(question: q1, text: "no")
+
+q2 = Question.create!(text: "Select question", q_type: "select", category: "test-category", short_name: "q2")
+Option.create!(question: q2, text: "Option A")
+Option.create!(question: q2, text: "Another Option")
+Option.create!(question: q2, text: "Yet another Option")

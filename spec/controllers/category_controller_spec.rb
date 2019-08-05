@@ -1,6 +1,7 @@
 require 'rails_helper'
 
 RSpec.describe CategoryController, type: :controller do
+  fixtures :all
   render_views
 
   it "renders questions for the given category" do

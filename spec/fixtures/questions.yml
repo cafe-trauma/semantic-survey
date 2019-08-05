@@ -9,3 +9,15 @@ q2:
   q_type: text
   category: test-category
   short_name: q2
+
+q3:
+  text: a select question
+  q_type: select
+  category: test-category
+  short_name: q3
+
+q4:
+  text: a checkbox question
+  q_type: checkbox
+  category: test-category
+  short_name: q4

@@ -23,6 +23,13 @@ class QuestionController < ApplicationController
         return true
       end
     end
+    if @question.q_type == 'select' then
+      if params[:question].has_key? :select then
+        option = Option.find(params[:question][:select])
+        Response.create!(organization: org, option: option)
+        return true
+      end
+    end
     return false
   end
 end

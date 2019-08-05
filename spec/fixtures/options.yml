@@ -9,3 +9,23 @@ no_option:
 text_option:
   text: Response
   question: q2
+
+first_option:
+  text: first
+  question: q3
+
+second_option:
+  text: second
+  question: q3
+
+a_option:
+  text: A
+  question: q4
+
+b_option:
+  text: B
+  question: q4
+
+c_option:
+  text: C
+  question: q4

@@ -8,8 +8,16 @@
       <% end %>
       <% if question.q_type == 'radio' %>
         <%= form.label option.text %>
-        <%= form.radio_button('radio', option.id, checked: option.selected(@org)) %><br>
+        <%= form.radio_button('radio', option.id, checked: option.selected(@org), name: option.text) %><br>
         <pre><%= option.selected(@org) %></pre>
+      <% end %>
+    <% end %>
+    <% if question.q_type == 'select' %>
+      <%= form.select(:select) do %>
+        <%= content_tag(:option, "", value: nil) %>
+        <% question.options.each do |option| %>
+          <%= content_tag(:option, option.text, value: option.id, selected: option.selected(@org)) %>
+        <% end %>
       <% end %>
     <% end %>
     <%= form.submit %>
