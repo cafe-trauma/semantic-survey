@@ -1,4 +1,5 @@
 When("The user navigates to the correct category") do
+  puts(Question.all.inspect)
   visit "/questionnaire/test-category"
   @content = page.source
 end
@@ -16,6 +17,8 @@ When("The user submits") do
 end
 
 When("The user picks yes") do
+  q1 = Question.find_by(short_name: "q1")
+  puts(q1.options.inspect)
   within(:css, "#q1") do
     choose('Yes')
   end

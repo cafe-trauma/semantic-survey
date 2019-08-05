@@ -16,7 +16,6 @@ Feature: Users can view question and give responses through the browser
 
   Scenario: User answers radio question and reloads and answer persists
     When The user navigates to the correct category
-    And show me the page
     And The user picks yes
     And The user submits
     And The user navigates to the correct category
