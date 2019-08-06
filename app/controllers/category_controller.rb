@@ -3,9 +3,9 @@ class CategoryController < ApplicationController
     @category = params[:category]
     @questions = Question.where(category: @category)
     return redirect_to "/" if @questions.empty?
-    if @category == "test-category"
-      @org = Organization.first
-      request.session[:active_organization] = @org.id
+    if request.session.has_key?(:active_organization) then
+      org_id = request.session[:active_organization]
+      @org = Organization.find(org_id)
     end
     if lookup_context.exists?("category/#{@category}")
       return render @category, prefixes: "category"

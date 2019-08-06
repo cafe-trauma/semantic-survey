@@ -1,5 +1,4 @@
 <h1>This is the testing category, hopefully it is not visible in production</h1>
-<p><%= @org.inspect %></p>
 <% @questions.each do |question| %>
   <%= render partial: 'question/question', object: question %>
 <% end %>

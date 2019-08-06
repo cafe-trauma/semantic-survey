@@ -11,7 +11,7 @@ RSpec.describe WelcomeController, type: :controller do
   it "registers new users" do
     post :register, params: {:new_user => {:email => "new@example.com"}}
     expect(Organization.exists?(email: "new@example.com")).to be(true)
-    expect(session).to have_key(:organization)
+    expect(session).to have_key(:active_organization)
   end
 
   it "does not register duplicate users" do

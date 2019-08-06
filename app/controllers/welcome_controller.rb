@@ -9,6 +9,7 @@ class WelcomeController < ApplicationController
       return render :recover
     end
     org = Organization.create!(email: email)
-    session[:organization] = org
+    session[:active_organization] = org.id
+    render :register
   end
 end

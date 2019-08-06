@@ -1,4 +1,12 @@
 When("The user navigates to the correct category") do
+  visit "/"
+  fill_in "Email", with: 'cucumber@example.com'
+  click_on "Register"
+  click_link "Trauma Center"
+  @content = page.source
+end
+
+When("The user reloads the page") do
   visit "/questionnaire/test-category"
   @content = page.source
 end
