@@ -33,15 +33,15 @@ describe User do
 
   it "can activate organization" do
     u = User.new
-    org = double()
+    org = double
     u.activate_organization(org)
     expect(u.active_organization).to be(org)
   end
 
   it "throws error when selecting option with no active organization" do
     u = User.new
-    o = double()
-    expect{
+    o = double
+    expect {
       u.select(o)
     }.to raise_error(NoOrganizationError)
   end

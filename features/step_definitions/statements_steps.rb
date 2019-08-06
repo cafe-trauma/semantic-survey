@@ -1,28 +1,28 @@
 Given("A User with an organization") do
   @user = User.new
-  @user.activate_organization(Organization.create!(:name => "Cucumber Org"))
+  @user.activate_organization(Organization.create!(name: "Cucumber Org"))
 end
 
 When("We have defined triples for o1") do
   @options ||= {}
-  @q = Question.create!(:text => "question text", :category => "test-category")
-  o = Option.create!(:question => @q, :text => "option o1 text")
-  t = Triple.create!(:s => "a", :p => "b", :o => "c", :option => o)
+  @q = Question.create!(text: "question text", category: "test-category")
+  o = Option.create!(question: @q, text: "option o1 text")
+  Triple.create!(s: "a", p: "b", o: "c", option: o)
   @options["o1"] = o
 end
 
 When("We have defined triples for o2") do
   @options ||= {}
-  o = Option.create!(:question => @q, :text => "option o2 text")
-  t = Triple.create!(:s => "c", :p => "d", :o => "e", :option => o)
+  o = Option.create!(question: @q, text: "option o2 text")
+  Triple.create!(s: "c", p: "d", o: "e", option: o)
   @options["o2"] = o
 end
 
 When("We have defined a triple with input") do
   @options ||= {}
   q = Question.create!
-  o = Option.create!(:question => q)
-  t = Triple.create!(:s => "a", :p => "b", :o => nil, :option => o)
+  o = Option.create!(question: q)
+  Triple.create!(s: "a", p: "b", o: nil, option: o)
   @options["input"] = o
 end
 

@@ -3,7 +3,7 @@ class Triple < ApplicationRecord
 
   belongs_to :option
 
-  def rdf(value=nil)
+  def rdf(value = nil)
     sv = s.nil? ? value : s
     pv = p.nil? ? value : p
     ov = o.nil? ? value : o

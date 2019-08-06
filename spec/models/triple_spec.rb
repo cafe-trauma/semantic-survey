@@ -1,8 +1,8 @@
-require 'rails_helper'
+require "rails_helper"
 
 RSpec.describe Triple, type: :model do
   fixtures :all
-  
+
   it "can return own rdf representation" do
     t = triples(:no_value)
     expect(t.rdf).to eq("a b c .")

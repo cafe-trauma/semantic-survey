@@ -5,13 +5,13 @@ end
 
 When("The user inputs text") do
   within(:css, "#q2") do
-    find('input[type="text"]').set('my unique answer')
+    find('input[type="text"]').set("my unique answer")
   end
 end
 
 When("The user submits q{int}") do |int|
   within(:css, "#q#{int}") do
-    click_on('Update Question')
+    click_on("Update Question")
   end
 end
 
@@ -30,7 +30,7 @@ When("The user checks {string}") do |string|
 end
 
 Then("The user sees multiple questions") do
-  expect(@content).to have_selector('.question', minimum: 2)
+  expect(@content).to have_selector(".question", minimum: 2)
 end
 
 Then("The user should still see their answer") do
@@ -38,21 +38,21 @@ Then("The user should still see their answer") do
 end
 
 Then("{string} should be selected") do |string|
-  expect(@content).to have_select('question_select', selected: string)
+  expect(@content).to have_select("question_select", selected: string)
 end
 
 Then("the first button should be checked") do
   within(:css, "#q5") do
-    expect(first(:xpath, './/input[@type="radio"]')).to be_checked()
+    expect(first(:xpath, './/input[@type="radio"]')).to be_checked
   end
 end
 
 Then("{string} should be checked") do |string|
-  expect(first(:xpath, ".//input[@value='#{string}']")).to be_checked()
+  expect(first(:xpath, ".//input[@value='#{string}']")).to be_checked
 end
 
 Then("{string} should not be checked") do |string|
-  expect(first(:xpath, ".//input[@value='#{string}']")).not_to be_checked()
+  expect(first(:xpath, ".//input[@value='#{string}']")).not_to be_checked
 end
 
 Then("The user sees the question text") do
