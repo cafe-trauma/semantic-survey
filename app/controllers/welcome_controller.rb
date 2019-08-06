@@ -4,7 +4,7 @@ class WelcomeController < ApplicationController
 
   def register
     email = params[:new_user][:email]
-    if Organization.exists?(email: email) then
+    if Organization.exists?(email: email)
       @email = email
       return render :recover
     end

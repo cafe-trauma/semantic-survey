@@ -3,7 +3,7 @@ class CategoryController < ApplicationController
     @category = params[:category]
     @questions = Question.where(category: @category)
     return redirect_to "/" if @questions.empty?
-    if request.session.has_key?(:active_organization) then
+    if request.session.key?(:active_organization)
       org_id = request.session[:active_organization]
       @org = Organization.find(org_id)
     end
