@@ -1,12 +1,4 @@
 Feature: Users can view question and give responses through the browser
-  Scenario: User loads category and sees questions with options
-    When The user navigates to the correct category
-    Then The user sees the question text
-
-  Scenario: User loads test category and sees multiple questions
-    When The user navigates to the correct category
-    Then The user sees multiple questions
-
   Scenario: User answers text question and reloads and answer persists
     When The user navigates to the correct category
       And The user inputs text
@@ -18,7 +10,7 @@ Feature: Users can view question and give responses through the browser
     When The user navigates to the correct category
       And The user picks first button
       And The user submits q5
-      And The user reloads the page 
+      And The user reloads the page
     Then the first button should be checked
 
   Scenario: User answers select question and reloads and answer persists
