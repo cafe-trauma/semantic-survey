@@ -3,6 +3,12 @@ class WelcomeController < ApplicationController
   end
 
   def register
-    puts params[:new_user].inspect
+    email = params[:new_user][:email]
+    if Organization.exists?(email: email) then
+      @email = email
+      return render :recover
+    end
+    org = Organization.create!(email: email)
+    session[:organization] = org
   end
 end
