@@ -3,7 +3,7 @@ Given("A User") do
 end
 
 Given("An Organization") do
-  @organization = Organization.create!(name: "Cucumber Organization 2")
+  @organization = Organization.create!(email: "cucumber2@example.com")
 end
 
 When("User selects organization") do

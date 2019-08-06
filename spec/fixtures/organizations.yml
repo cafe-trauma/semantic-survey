@@ -1,8 +1,8 @@
 o1:
-  name: The test organization
+  email: o1@example.com
 
 o2:
-  name: The other organization
+  email: o2@example.com
 
 o3:
-  name: The organiation with no responses
+  email: existing@example.com

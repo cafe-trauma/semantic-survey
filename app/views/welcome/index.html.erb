@@ -1,0 +1,8 @@
+<h1>Welcome#index</h1>
+<p>Find me in app/views/welcome/index.html.erb</p>
+<button>Begin Questionnaire</button>
+<%= form_with(scope: :new_user) do |form| %>
+  <%= form.label :email %><br>
+  <%= form.email_field :email %>
+  <%= form.submit "Register" %>
+<% end %>

@@ -21,7 +21,7 @@ ActiveRecord::Schema.define(version: 2019_07_30_202046) do
   end
 
   create_table "organizations", force: :cascade do |t|
-    t.text "name"
+    t.text "email"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
