@@ -6,6 +6,12 @@
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
 
+require 'active_record/fixtures'
+fixtures_dir = File.join(Rails.root, 'db/old')
+fixture_files = Dir["#{fixtures_dir}/*.yml"].map {|f| f[(fixtures_dir.size + 1)..-5] }
+
+ActiveRecord::FixtureSet.create_fixtures(fixtures_dir, fixture_files)
+
 Organization.create!(email: "developer@example.com")
 
 q1 = Question.create!(text: "Test question?", q_type: "radio", category: "test-category", short_name: "q1")
@@ -21,9 +27,3 @@ q3 = Question.create!(text: "Select question", q_type: "checkbox", category: "te
 Option.create!(question: q3, text: "A")
 Option.create!(question: q3, text: "B")
 Option.create!(question: q3, text: "C")
-
-require 'active_record/fixtures'
-fixtures_dir = File.join(Rails.root, 'db/old')
-fixture_files = Dir["#{fixtures_dir}/*.yml"].map {|f| f[(fixtures_dir.size + 1)..-5] }
-
-ActiveRecord::FixtureSet.create_fixtures(fixtures_dir, fixture_files)

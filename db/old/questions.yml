@@ -46,7 +46,7 @@ question_13:
   category: trauma-medical-director
   text: Is the TMD {board-eligible|board eligible trauma surgeon role} or {board certified|board
     certified trauma surgeon role}?
-  q_type: combo
+  q_type: select
   short_name: 
 question_14:
   category: trauma-medical-director
@@ -63,7 +63,7 @@ question_15:
 question_16:
   category: trauma-program-manager
   text: What level of education does your trauma program manager have?
-  q_type: combo
+  q_type: select
   short_name: education_level
 question_19:
   category: trauma-medical-director
@@ -483,7 +483,7 @@ question_121:
 question_124:
   category: basic
   text: Which {Trauma Center|trauma center} level is your institution?
-  q_type: combo
+  q_type: select
   short_name: 
 question_129:
   category: basic
@@ -518,7 +518,7 @@ question_135:
 question_137:
   category: trauma-medical-director
   text: What is the medical specialty of your TMD?
-  q_type: combo
+  q_type: select
   short_name: medical_speciality
 question_138:
   category: trauma-medical-director
@@ -668,12 +668,12 @@ question_172:
   category: governance
   text: Is the trauma lead agency a {government agency|government agency} or a {private
     agency/enterprise|non-government organization}?
-  q_type: combo
+  q_type: select
   short_name: 
 question_173:
   category: governance
   text: If it is a government lead agency, which part of the government?
-  q_type: combo
+  q_type: select
   short_name: 
 question_174:
   category: governance
@@ -749,7 +749,7 @@ question_186:
 question_187:
   category: basic
   text: 'Your trauma system is:'
-  q_type: combo
+  q_type: select
   short_name: 
 question_188:
   category: trauma-system-plan
@@ -842,7 +842,7 @@ question_205:
   category: governance
   text: Which organization provides {trauma center verification|trauma center verification}
     in your area?
-  q_type: combo
+  q_type: select
   short_name: 
 question_206:
   category: trauma-system-plan

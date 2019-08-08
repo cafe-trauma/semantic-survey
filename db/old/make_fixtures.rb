@@ -25,16 +25,16 @@ end
 
 def find_option(statement, question, q_name)
   if question['q_type'] == 'radio'
-    return :"#{q_name}:yes"
+    return "#{q_name}:yes"
   end
   if question['q_type'] == 'text'
-    return :"#{q_name}:text"
+    return "#{q_name}:text"
   end
   if question['q_type'] == 'int'
-    return :"#{q_name}:int"
+    return "#{q_name}:int"
   end
   if question['q_type'] == 'select' || question['q_type'] == 'checkbox'
-    return :"#{q_name}:option_#{statement['choice']}"
+    return "#{q_name}:option_#{statement['choice']}"
   end
   return 'Unknown'
 end
@@ -44,6 +44,9 @@ def convert_qtype(old)
     return 'radio'
   end
   if old == 'choice'
+    return 'select'
+  end
+  if old == 'combo'
     return 'select'
   end
   if old == 'check'
@@ -81,34 +84,34 @@ questions.each do |key, question|
   if question['q_type'] == 'radio'
     options["#{key}:yes"] = {
       'text' => 'Yes',
-      'question' => :"#{key}"
+      'question' => "#{key}"
     }
     options["#{key}:no"] = {
       'text' => 'No',
-      'question' => :"#{key}"
+      'question' => "#{key}"
     }
     options["#{key}:na"] = {
       'text' => 'N/A',
-      'question' => :"#{key}"
+      'question' => "#{key}"
     }
   end
   if question['q_type'] == 'text'
     options["#{key}:text"] = {
       'text' => 'Response',
-      'question' => :"#{key}"
+      'question' => "#{key}"
     }
   end
   if question['q_type'] == 'int'
     options["#{key}:int"] = {
       'text' => 'Number',
-      'question' => :"#{key}"
+      'question' => "#{key}"
     }
   end
   if question['q_type'] == 'select' or question['q_type'] == 'checkbox'
     question_options[key].each do |opt|
       options["#{key}:option_#{opt}"] = {
         'text' => old_options[opt],
-        'question' => :"#{key}"
+        'question' => "#{key}"
       }
     end
   end
