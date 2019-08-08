@@ -21,3 +21,9 @@ q3 = Question.create!(text: "Select question", q_type: "checkbox", category: "te
 Option.create!(question: q3, text: "A")
 Option.create!(question: q3, text: "B")
 Option.create!(question: q3, text: "C")
+
+require 'active_record/fixtures'
+fixtures_dir = File.join(Rails.root, 'db/old')
+fixture_files = Dir["#{fixtures_dir}/*.yml"].map {|f| f[(fixtures_dir.size + 1)..-5] }
+
+ActiveRecord::FixtureSet.create_fixtures(fixtures_dir, fixture_files)

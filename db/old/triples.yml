@@ -1,0 +1,4386 @@
+---
+triple_3:
+  option: :question_1:yes
+  s: http://cafe-trauma.com/uri/{user}/organization
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_4:
+  option: :question_1:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_program
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000017
+triple_5:
+  option: Unknown
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000025
+triple_6:
+  option: Unknown
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000026
+triple_7:
+  option: Unknown
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000027
+triple_8:
+  option: Unknown
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000031
+triple_9:
+  option: Unknown
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000032
+triple_10:
+  option: :question_12:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_medical_director
+  p: http://purl.obolibrary.org/obo/OBI_0000846
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_11:
+  option: :question_12:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_medical_director
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_12:
+  option: :question_12:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_medical_director
+  p: http://purl.obolibrary.org/obo/RO_0000053
+  o: _:a
+triple_13:
+  option: :question_12:yes
+  s: _:a
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000021
+triple_14:
+  option: :question_25:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_program_manager
+  p: http://purl.obolibrary.org/obo/OBI_0000846
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_15:
+  option: :question_25:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_program_manager
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_16:
+  option: :question_25:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_program_manager
+  p: http://purl.obolibrary.org/obo/RO_0000053
+  o: _:a
+triple_17:
+  option: :question_25:yes
+  s: _:a
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000018
+triple_18:
+  option: :question_33:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_registrar
+  p: http://purl.obolibrary.org/obo/OBI_0000846
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_19:
+  option: :question_33:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_registrar
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_20:
+  option: :question_33:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_registrar
+  p: http://purl.obolibrary.org/obo/RO_0000053
+  o: _:a
+triple_21:
+  option: :question_33:yes
+  s: _:a
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000022
+triple_22:
+  option: :question_10:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_program
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: http://cafe-trauma.com/uri/{user}/trauma_program_operational_review_comittee
+triple_23:
+  option: :question_10:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_program_operational_review_comittee
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000007
+triple_24:
+  option: :question_11:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_program
+  p: http://purl.obolibrary.org/obo/OOSTT_00000042
+  o: _:x
+triple_26:
+  option: :question_133:yes
+  s: _:a
+  p: http://purl.obolibrary.org/obo/OBI_0000846
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_27:
+  option: :question_133:yes
+  s: _:a
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_28:
+  option: :question_133:yes
+  s: _:a
+  p: http://purl.obolibrary.org/obo/RO_0000056
+  o: _:b
+triple_29:
+  option: :question_133:yes
+  s: _:b
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000079
+triple_30:
+  option: :question_134:yes
+  s: _:a
+  p: http://purl.obolibrary.org/obo/OBI_0000846
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_31:
+  option: :question_134:yes
+  s: _:a
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_32:
+  option: :question_134:yes
+  s: _:a
+  p: http://purl.obolibrary.org/obo/RO_0000056
+  o: _:b
+triple_33:
+  option: :question_134:yes
+  s: _:b
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000054
+triple_63:
+  option: :question_9:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000061
+triple_64:
+  option: :question_9:yes
+  s: _:x
+  p: http://purl.obolibrary.org/obo/RO_0000052
+  o: _:y
+triple_65:
+  option: :question_9:yes
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_66:
+  option: :question_9:yes
+  s: _:y
+  p: http://purl.obolibrary.org/obo/OBI_0000846
+  o: _:z
+triple_67:
+  option: :question_9:yes
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000060
+triple_78:
+  option: :question_138:option_
+  s: http://cafe-trauma.com/uri/{user}/trauma_medical_director
+  p: http://purl.obolibrary.org/obo/RO_0000053
+  o: _:v
+triple_79:
+  option: :question_138:option_
+  s: _:v
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000046
+triple_80:
+  option: :question_138:option_
+  s: _:v
+  p: http://purl.obolibrary.org/obo/OOSTT_00000045
+  o: _:z
+triple_81:
+  option: :question_138:option_
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000047
+triple_83:
+  option: :question_138:option_51
+  s: _:a
+  p: http://purl.obolibrary.org/obo/RO_0000053
+  o: _:aa
+triple_85:
+  option: :question_138:option_51
+  s: _:aa
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000062
+triple_86:
+  option: :question_138:option_53
+  s: _:bb
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000063
+triple_87:
+  option: :question_138:option_55
+  s: _:dd
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000065
+triple_88:
+  option: :question_138:option_54
+  s: _:cc
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000064
+triple_89:
+  option: :question_14:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_medical_director
+  p: http://purl.obolibrary.org/obo/RO_0000056
+  o: _:z
+triple_90:
+  option: :question_14:yes
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0000011
+triple_91:
+  option: :question_14:yes
+  s: _:z
+  p: http://purl.obolibrary.org/obo/BFO_0000055
+  o: _:w
+triple_92:
+  option: :question_14:yes
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/BFO_0000017
+triple_93:
+  option: :question_14:yes
+  s: _:w
+  p: http://purl.obolibrary.org/obo/RO_0000059
+  o: http://cafe-trauma.com/uri/{user}/trauma_on_call_ps
+triple_94:
+  option: :question_14:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_on_call_ps
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000037
+triple_95:
+  option: :question_138:option_53
+  s: _:b
+  p: http://purl.obolibrary.org/obo/RO_0000053
+  o: _:bb
+triple_96:
+  option: :question_138:option_54
+  s: _:c
+  p: http://purl.obolibrary.org/obo/RO_0000053
+  o: _:cc
+triple_97:
+  option: :question_138:option_55
+  s: _:d
+  p: http://purl.obolibrary.org/obo/RO_0000053
+  o: _:dd
+triple_101:
+  option: :question_138:option_53
+  s: _:z
+  p: http://purl.obolibrary.org/obo/RO_0000052
+  o: _:b
+triple_102:
+  option: :question_138:option_54
+  s: _:z
+  p: http://purl.obolibrary.org/obo/RO_0000052
+  o: _:c
+triple_103:
+  option: :question_138:option_55
+  s: _:z
+  p: http://purl.obolibrary.org/obo/RO_0000052
+  o: _:d
+triple_104:
+  option: :question_138:option_51
+  s: _:z
+  p: http://purl.obolibrary.org/obo/RO_0000052
+  o: _:a
+triple_105:
+  option: :question_31:option_
+  s: http://cafe-trauma.com/uri/{user}/trauma_program_manager
+  p: http://purl.obolibrary.org/obo/RO_0000053
+  o: _:v
+triple_106:
+  option: :question_31:option_
+  s: _:v
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000046
+triple_107:
+  option: :question_31:option_
+  s: _:v
+  p: http://purl.obolibrary.org/obo/OOSTT_00000045
+  o: _:z
+triple_108:
+  option: :question_31:option_
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000047
+triple_109:
+  option: :question_31:option_66
+  s: _:a
+  p: http://purl.obolibrary.org/obo/RO_0000053
+  o: _:aa
+triple_110:
+  option: :question_31:option_66
+  s: _:a
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_111:
+  option: :question_31:option_66
+  s: _:aa
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000043
+triple_114:
+  option: :question_31:option_68
+  s: _:cc
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000044
+triple_116:
+  option: :question_31:option_68
+  s: _:c
+  p: http://purl.obolibrary.org/obo/RO_0000053
+  o: _:cc
+triple_119:
+  option: :question_31:option_68
+  s: _:c
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_121:
+  option: :question_31:option_67
+  s: _:z
+  p: http://purl.obolibrary.org/obo/RO_0000052
+  o: http://cafe-trauma.com/uri/{user}/trauma_medical_director
+triple_122:
+  option: :question_31:option_68
+  s: _:z
+  p: http://purl.obolibrary.org/obo/RO_0000052
+  o: _:c
+triple_125:
+  option: :question_37:option_69
+  s: http://cafe-trauma.com/uri/{user}/trauma_program
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: http://cafe-trauma.com/uri/{user}/emergency_medicine_liaison
+triple_126:
+  option: :question_37:option_69
+  s: http://cafe-trauma.com/uri/{user}/emergency_medicine_liaison
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_127:
+  option: :question_37:option_69
+  s: http://cafe-trauma.com/uri/{user}/emergency_medicine_liaison
+  p: http://purl.obolibrary.org/obo/RO_0000053
+  o: _:emr
+triple_128:
+  option: :question_37:option_69
+  s: _:emr
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000066
+triple_129:
+  option: :question_37:option_70
+  s: http://cafe-trauma.com/uri/{user}/trauma_program
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: _:orth
+triple_130:
+  option: :question_37:option_70
+  s: _:orth
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_131:
+  option: :question_37:option_70
+  s: _:orth
+  p: http://purl.obolibrary.org/obo/RO_0000053
+  o: _:orthr
+triple_132:
+  option: :question_37:option_70
+  s: _:orthr
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000067
+triple_133:
+  option: :question_37:option_71
+  s: http://cafe-trauma.com/uri/{user}/trauma_program
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: _:ns
+triple_134:
+  option: :question_37:option_71
+  s: _:ns
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_135:
+  option: :question_37:option_71
+  s: _:ns
+  p: http://purl.obolibrary.org/obo/RO_0000053
+  o: _:nsr
+triple_136:
+  option: :question_37:option_71
+  s: _:nsr
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000068
+triple_137:
+  option: :question_37:option_72
+  s: http://cafe-trauma.com/uri/{user}/trauma_program
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: _:an
+triple_138:
+  option: :question_37:option_72
+  s: _:an
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_139:
+  option: :question_37:option_72
+  s: _:an
+  p: http://purl.obolibrary.org/obo/RO_0000053
+  o: _:anr
+triple_140:
+  option: :question_37:option_72
+  s: _:anr
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000048
+triple_141:
+  option: :question_37:option_73
+  s: http://cafe-trauma.com/uri/{user}/trauma_program
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: _:cc
+triple_142:
+  option: :question_37:option_73
+  s: _:cc
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_143:
+  option: :question_37:option_73
+  s: _:cc
+  p: http://purl.obolibrary.org/obo/RO_0000053
+  o: _:ccr
+triple_144:
+  option: :question_37:option_73
+  s: _:ccr
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000069
+triple_145:
+  option: :question_37:option_74
+  s: http://cafe-trauma.com/uri/{user}/trauma_program
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: _:ra
+triple_146:
+  option: :question_37:option_74
+  s: _:ra
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_147:
+  option: :question_37:option_74
+  s: _:ra
+  p: http://purl.obolibrary.org/obo/RO_0000053
+  o: _:rar
+triple_148:
+  option: :question_37:option_74
+  s: _:rar
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000070
+triple_157:
+  option: :question_74:option_
+  s: http://cafe-trauma.com/uri/{user}/trauma_program
+  p: http://purl.obolibrary.org/obo/OOSTT_00000042
+  o: _:y
+triple_158:
+  option: :question_74:option_
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000071
+triple_159:
+  option: :question_74:option_75
+  s: _:y
+  p: http://purl.obolibrary.org/obo/RO_0000057
+  o: _:pt
+triple_160:
+  option: :question_74:option_76
+  s: _:y
+  p: http://purl.obolibrary.org/obo/RO_0000057
+  o: _:ot
+triple_161:
+  option: :question_74:option_77
+  s: _:y
+  p: http://purl.obolibrary.org/obo/RO_0000057
+  o: _:rs
+triple_162:
+  option: :question_74:option_75
+  s: _:x
+  p: http://purl.obolibrary.org/obo/RO_0000053
+  o: http://purl.obolibrary.org/obo/OOSTT_00000076
+triple_163:
+  option: :question_74:option_76
+  s: _:w
+  p: http://purl.obolibrary.org/obo/RO_0000053
+  o: http://purl.obolibrary.org/obo/OOSTT_00000075
+triple_164:
+  option: :question_74:option_77
+  s: _:v
+  p: http://purl.obolibrary.org/obo/RO_0000053
+  o: http://purl.obolibrary.org/obo/OOSTT_00000077
+triple_165:
+  option: :question_11:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000041
+triple_168:
+  option: :question_26:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_program_manager
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:x
+triple_169:
+  option: :question_26:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000154
+triple_170:
+  option: :question_156:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_program_manager
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:x
+triple_173:
+  option: Unknown
+  s: _:degree
+  p: http://purl.obolibrary.org/obo/IAO_0000136
+  o: http://cafe-trauma.com/uri/{user}/trauma_program_manager
+triple_174:
+  option: Unknown
+  s: _:degree
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000085
+triple_175:
+  option: Unknown
+  s: _:degree
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000084
+triple_176:
+  option: Unknown
+  s: _:degree
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000086
+triple_177:
+  option: Unknown
+  s: _:degree
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000074
+triple_188:
+  option: :question_20:option_78
+  s: http://cafe-trauma.com/uri/{user}/trauma_medical_director
+  p: http://purl.obolibrary.org/obo/OBI_0000846
+  o: _:x
+triple_189:
+  option: :question_20:option_78
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000039
+triple_210:
+  option: :question_61:yes
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000067
+triple_211:
+  option: :question_61:yes
+  s: http://cafe-trauma.com/uri/{user}/orthopedic surgery liaison
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_212:
+  option: :question_61:yes
+  s: http://cafe-trauma.com/uri/{user}/orthopedic surgery liaison
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:y
+triple_213:
+  option: :question_61:yes
+  s: http://cafe-trauma.com/uri/{user}/orthopedic surgery liaison
+  p: http://purl.obolibrary.org/obo/OBI_0000846
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_218:
+  option: :question_7:yes
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000111
+triple_220:
+  option: :question_7:yes
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0000011
+triple_221:
+  option: :question_7:yes
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000015
+triple_224:
+  option: :question_7:yes
+  s: _:y
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:z
+triple_225:
+  option: Unknown
+  s: http://cafe-trauma.com/uri/{user}/trauma_medical_director
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:x
+triple_226:
+  option: Unknown
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000089
+triple_227:
+  option: Unknown
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000091
+triple_228:
+  option: Unknown
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OMRSE_00000130
+triple_229:
+  option: Unknown
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000090
+triple_240:
+  option: :question_34:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_registrar
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:y
+triple_241:
+  option: :question_34:yes
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000022
+triple_242:
+  option: :question_34:yes
+  s: _:z
+  p: http://purl.obolibrary.org/obo/IAO_0000136
+  o: _:y
+triple_243:
+  option: :question_34:yes
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000104
+triple_256:
+  option: :question_41:yes
+  s: http://cafe-trauma.com/uri/{user}/organization
+  p: http://purl.obolibrary.org/obo/OOSTT_00000123
+  o: _:x
+triple_261:
+  option: :question_41:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000124
+triple_262:
+  option: :question_110:yes
+  s: http://cafe-trauma.com/uri/{user}/organization
+  p: http://purl.obolibrary.org/obo/OOSTT_00000042
+  o: _:x
+triple_269:
+  option: :question_110:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000120
+triple_276:
+  option: :question_135:yes
+  s: _:x
+  p: http://purl.obolibrary.org/obo/RO_0002350
+  o: http://cafe-trauma.com/uri/{user}/organization
+triple_277:
+  option: :question_135:yes
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000108
+triple_278:
+  option: :question_135:yes
+  s: _:x
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:y
+triple_279:
+  option: :question_135:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_286:
+  option: :question_15:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_medical_director
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:x
+triple_287:
+  option: :question_15:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000095
+triple_288:
+  option: :question_19:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_medical_director
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: http://cafe-trauma.com/uri/{user}/tmd_evaluator_role
+triple_289:
+  option: :question_19:yes
+  s: http://cafe-trauma.com/uri/{user}/tmd_evaluator_role
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000097
+triple_290:
+  option: :question_19:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_program_manager
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: http://cafe-trauma.com/uri/{user}/tpm_evaluator_role
+triple_291:
+  option: :question_19:yes
+  s: http://cafe-trauma.com/uri/{user}/tpm_evaluator_role
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000098
+triple_292:
+  option: :question_19:yes
+  s: http://cafe-trauma.com/uri/{user}/tmd_evaluator_role
+  p: http://purl.obolibrary.org/obo/OOSTT_00000045
+  o: http://cafe-trauma.com/uri/{user}/tpm_evaluator_role
+triple_325:
+  option: :question_24:yes
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000102
+triple_326:
+  option: :question_24:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_medical_director
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:z
+triple_332:
+  option: :question_140:yes
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000105
+triple_335:
+  option: :question_140:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_medical_director
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:z
+triple_340:
+  option: :question_8:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_program
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: _:u
+triple_341:
+  option: :question_8:yes
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0000011
+triple_344:
+  option: :question_22:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_medical_director
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:v
+triple_345:
+  option: :question_22:yes
+  s: _:v
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000099
+triple_355:
+  option: Unknown
+  s: _:degree
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#label
+  o: _:{{value}}
+triple_361:
+  option: :question_27:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000150
+triple_362:
+  option: :question_27:yes
+  s: _:x
+  p: http://purl.obolibrary.org/obo/IAO_0000136
+  o: http://cafe-trauma.com/uri/{user}/trauma_program_manager
+triple_380:
+  option: :question_101:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_382:
+  option: :question_101:yes
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000152
+triple_385:
+  option: :question_101:yes
+  s: http://cafe-trauma.com/uri/{user}/organization
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: _:x
+triple_406:
+  option: :question_7:yes
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OOSTT_00000042
+  o: _:y
+triple_438:
+  option: :question_21:yes
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000106
+triple_443:
+  option: :question_102:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000107
+triple_445:
+  option: :question_102:yes
+  s: _:x
+  p: http://purl.obolibrary.org/obo/BFO_0000055
+  o: _:z
+triple_452:
+  option: :question_102:yes
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000106
+triple_455:
+  option: :question_36:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_registrar
+  p: http://purl.obolibrary.org/obo/RO_0000056
+  o: _:z
+triple_456:
+  option: :question_36:yes
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000193
+triple_457:
+  option: :question_36:yes
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_471:
+  option: :question_43:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_472:
+  option: :question_43:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_473:
+  option: :question_43:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:y
+triple_474:
+  option: :question_43:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000198
+triple_493:
+  option: :question_48:int
+  s: http://cafe-trauma.com/uri/{user}/trauma_program
+  p: http://purl.obolibrary.org/obo/BFO_0000051
+  o: _:y
+triple_494:
+  option: :question_48:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: _:{{value}}
+triple_497:
+  option: :question_48:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_498:
+  option: :question_48:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:x
+triple_499:
+  option: :question_48:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000201
+triple_500:
+  option: :question_48:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:y
+triple_501:
+  option: :question_48:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_502:
+  option: :question_70:option_84
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000141
+triple_503:
+  option: :question_70:option_28
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000142
+triple_504:
+  option: :question_70:option_85
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000143
+triple_505:
+  option: :question_70:option_86
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000144
+triple_511:
+  option: :question_70:option_86
+  s: http://cafe-trauma.com/uri/{user}/organization
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:z
+triple_512:
+  option: :question_70:option_28
+  s: http://cafe-trauma.com/uri/{user}/organization
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:x
+triple_513:
+  option: :question_70:option_85
+  s: http://cafe-trauma.com/uri/{user}/organization
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:y
+triple_514:
+  option: :question_70:option_84
+  s: http://cafe-trauma.com/uri/{user}/organization
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:w
+triple_546:
+  option: :question_132:yes
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_547:
+  option: :question_132:yes
+  s: _:z
+  p: http://purl.obolibrary.org/obo/RO_0000053
+  o: _:u
+triple_549:
+  option: :question_132:yes
+  s: _:z
+  p: http://purl.obolibrary.org/obo/RO_0000056
+  o: _:v
+triple_550:
+  option: :question_132:yes
+  s: _:v
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000093
+triple_551:
+  option: :question_132:yes
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000846
+  o: http://cafe-trauma.com/uri/{user}/organization
+triple_552:
+  option: :question_132:yes
+  s: _:u
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OMRSE_00000013
+triple_553:
+  option: :question_8:yes
+  s: _:y
+  p: http://purl.obolibrary.org/obo/RO_0000057
+  o: _:x
+triple_554:
+  option: :question_8:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000111
+triple_555:
+  option: :question_8:yes
+  s: _:u
+  p: http://purl.obolibrary.org/obo/RO_0000056
+  o: _:y
+triple_556:
+  option: :question_8:yes
+  s: _:u
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_557:
+  option: :question_8:yes
+  s: _:y
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:z
+triple_558:
+  option: :question_8:yes
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000094
+triple_573:
+  option: :question_20:option_79
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000038
+triple_574:
+  option: :question_20:option_79
+  s: http://cafe-trauma.com/uri/{user}/trauma_medical_director
+  p: http://purl.obolibrary.org/obo/OBI_0000846
+  o: _:y
+triple_607:
+  option: :question_21:yes
+  s: _:w
+  p: http://purl.obolibrary.org/obo/BFO_0000054
+  o: _:x
+triple_608:
+  option: :question_21:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000107
+triple_628:
+  option: :question_28:option_92
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000189
+triple_639:
+  option: :question_86:yes
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000226
+triple_640:
+  option: :question_82:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_program
+  p: http://purl.obolibrary.org/obo/OOSTT_00000123
+  o: http://cafe-trauma.com/uri/{user}/neurosurgical_backup_plan_specification
+triple_646:
+  option: :question_82:yes
+  s: http://cafe-trauma.com/uri/{user}/neurosurgical_backup_plan_specification
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000128
+triple_647:
+  option: :question_68:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_program
+  p: http://purl.obolibrary.org/obo/OOSTT_00000123
+  o: http://cafe-trauma.com/uri/{user}/orthopedic_backup_plan_specification
+triple_653:
+  option: :question_68:yes
+  s: http://cafe-trauma.com/uri/{user}/orthopedic_backup_plan_specification
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000109
+triple_664:
+  option: :question_57:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000125
+triple_667:
+  option: :question_57:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_program
+  p: http://purl.obolibrary.org/obo/OOSTT_00000123
+  o: _:x
+triple_747:
+  option: :question_109:yes
+  s: http://cafe-trauma.com/uri/{user}/organization
+  p: http://purl.obolibrary.org/obo/OOSTT_00000123
+  o: _:x
+triple_750:
+  option: :question_109:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000149
+triple_819:
+  option: :question_116:option_
+  s: http://cafe-trauma.com/uri/{user}/organization
+  p: http://purl.obolibrary.org/obo/BFO_0000051
+  o: _:y
+triple_822:
+  option: :question_116:option_16
+  s: _:y
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: _:x
+triple_823:
+  option: :question_116:option_23
+  s: _:y
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: _:v
+triple_824:
+  option: :question_116:option_28
+  s: _:y
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: _:t
+triple_825:
+  option: :question_116:option_95
+  s: _:y
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: _:r
+triple_826:
+  option: :question_116:option_21
+  s: _:y
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: _:p
+triple_827:
+  option: :question_116:option_94
+  s: _:y
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: _:n
+triple_828:
+  option: :question_116:option_20
+  s: _:y
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: _:l
+triple_829:
+  option: :question_116:option_
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_830:
+  option: :question_116:option_
+  s: _:v
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_831:
+  option: :question_116:option_
+  s: _:t
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_832:
+  option: :question_116:option_
+  s: _:r
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_833:
+  option: :question_116:option_
+  s: _:p
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_834:
+  option: :question_116:option_
+  s: _:n
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_835:
+  option: :question_116:option_
+  s: _:l
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_836:
+  option: :question_116:option_16
+  s: _:x
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:w
+triple_837:
+  option: :question_116:option_23
+  s: _:v
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:u
+triple_838:
+  option: :question_116:option_28
+  s: _:t
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:s
+triple_839:
+  option: :question_116:option_95
+  s: _:r
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:q
+triple_840:
+  option: :question_116:option_21
+  s: _:p
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:o
+triple_841:
+  option: :question_116:option_94
+  s: _:n
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:m
+triple_842:
+  option: :question_116:option_27
+  s: _:l
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:k
+triple_843:
+  option: :question_116:option_16
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000238
+triple_844:
+  option: :question_116:option_23
+  s: _:u
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000245
+triple_845:
+  option: :question_116:option_28
+  s: _:s
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000250
+triple_846:
+  option: :question_116:option_95
+  s: _:q
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000249
+triple_847:
+  option: :question_116:option_21
+  s: _:o
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000246
+triple_848:
+  option: :question_116:option_94
+  s: _:m
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000248
+triple_849:
+  option: :question_116:option_20
+  s: _:k
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000247
+triple_898:
+  option: :question_115:option_
+  s: http://cafe-trauma.com/uri/{user}/organization
+  p: http://purl.obolibrary.org/obo/BFO_0000051
+  o: _:y
+triple_901:
+  option: :question_115:option_9
+  s: _:y
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: _:r
+triple_902:
+  option: :question_115:option_10
+  s: _:y
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: _:s
+triple_903:
+  option: :question_115:option_93
+  s: _:y
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: _:t
+triple_904:
+  option: :question_115:option_12
+  s: _:y
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: _:u
+triple_905:
+  option: :question_115:option_13
+  s: _:y
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: _:v
+triple_906:
+  option: :question_115:option_14
+  s: _:y
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: _:w
+triple_907:
+  option: :question_115:option_15
+  s: _:y
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: _:x
+triple_908:
+  option: :question_115:option_
+  s: _:r
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_909:
+  option: :question_115:option_
+  s: _:s
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_910:
+  option: :question_115:option_
+  s: _:t
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_911:
+  option: :question_115:option_
+  s: _:u
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_912:
+  option: :question_115:option_
+  s: _:v
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_913:
+  option: :question_115:option_
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_914:
+  option: :question_115:option_
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_915:
+  option: :question_115:option_9
+  s: _:r
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:k
+triple_916:
+  option: :question_115:option_10
+  s: _:s
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:l
+triple_917:
+  option: :question_115:option_93
+  s: _:t
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:m
+triple_918:
+  option: :question_115:option_12
+  s: _:u
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:n
+triple_919:
+  option: :question_115:option_13
+  s: _:v
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:o
+triple_920:
+  option: :question_115:option_14
+  s: _:w
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:p
+triple_921:
+  option: :question_115:option_15
+  s: _:x
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:q
+triple_922:
+  option: :question_115:option_9
+  s: _:k
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000160
+triple_923:
+  option: :question_115:option_10
+  s: _:l
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000239
+triple_924:
+  option: :question_115:option_93
+  s: _:m
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000242
+triple_925:
+  option: :question_115:option_12
+  s: _:n
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000243
+triple_926:
+  option: :question_115:option_13
+  s: _:o
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000244
+triple_927:
+  option: :question_115:option_14
+  s: _:p
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000240
+triple_928:
+  option: :question_115:option_15
+  s: _:q
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000241
+triple_933:
+  option: Unknown
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000181
+triple_936:
+  option: Unknown
+  s: http://cafe-trauma.com/uri/{user}/trauma_medical_director
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:x
+triple_938:
+  option: :question_35:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_program
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: _:w
+triple_939:
+  option: :question_35:yes
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_940:
+  option: :question_35:yes
+  s: _:w
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:x
+triple_941:
+  option: :question_35:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000116
+triple_942:
+  option: :question_35:yes
+  s: _:y
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:x
+triple_943:
+  option: :question_35:yes
+  s: _:y
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:z
+triple_944:
+  option: :question_35:yes
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/IAO_0021002
+triple_945:
+  option: :question_35:yes
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_tbd_FTE_role
+triple_946:
+  option: :question_35:yes
+  s: _:w
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:z
+triple_966:
+  option: :question_100:yes
+  s: http://cafe-trauma.com/uri/{user}/organization
+  p: http://purl.obolibrary.org/obo/OOSTT_00000042
+  o: _:z
+triple_968:
+  option: :question_100:yes
+  s: _:z
+  p: http://purl.obolibrary.org/obo/RO_0000057
+  o: _:y
+triple_969:
+  option: :question_100:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000151
+triple_971:
+  option: :question_100:yes
+  s: _:y
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:x
+triple_972:
+  option: :question_100:yes
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000071
+triple_973:
+  option: :question_58:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_974:
+  option: :question_58:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: _:{{value}}
+triple_977:
+  option: :question_58:int
+  s: http://cafe-trauma.com/uri/{user}/trauma_program
+  p: http://purl.obolibrary.org/obo/BFO_0000051
+  o: _:y
+triple_978:
+  option: :question_58:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:x
+triple_980:
+  option: :question_58:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000213
+triple_981:
+  option: :question_58:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:y
+triple_982:
+  option: :question_58:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1025:
+  option: :question_30:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_program_manager
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:x
+triple_1026:
+  option: :question_30:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000191
+triple_1040:
+  option: :question_80:yes
+  s: _:s
+  p: http://purl.obolibrary.org/obo/IAO_0000136
+  o: http://cafe-trauma.com/uri/{user}/neurosurgery liaison
+triple_1045:
+  option: :question_80:yes
+  s: _:s
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000129
+triple_1067:
+  option: :question_98:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1068:
+  option: :question_98:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1069:
+  option: :question_98:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:y
+triple_1070:
+  option: :question_98:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000237
+triple_1071:
+  option: :question_98:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:x
+triple_1072:
+  option: :question_98:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1073:
+  option: :question_98:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: _:{{value}}
+triple_1094:
+  option: :question_65:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_1095:
+  option: :question_65:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1096:
+  option: :question_65:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:x
+triple_1097:
+  option: :question_65:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_1099:
+  option: :question_65:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:y
+triple_1100:
+  option: :question_65:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1107:
+  option: :question_43:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1108:
+  option: :question_43:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:x
+triple_1109:
+  option: :question_43:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1130:
+  option: :question_56:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_1131:
+  option: :question_56:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000131
+triple_1132:
+  option: :question_56:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:y
+triple_1133:
+  option: :question_56:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1134:
+  option: :question_56:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:x
+triple_1135:
+  option: :question_56:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_1136:
+  option: :question_56:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: _:{{value}}
+triple_1141:
+  option: Unknown
+  s: http://cafe-trauma.com/uri/{user}/organization
+  p: http://purl.obolibrary.org/obo/RO_0000053
+  o: _:x
+triple_1143:
+  option: :question_43:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1144:
+  option: :question_43:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: _:{{value}}
+triple_1162:
+  option: :question_65:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1163:
+  option: :question_65:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: _:{{value}}
+triple_1164:
+  option: :question_65:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000221
+triple_1167:
+  option: :question_92:yes
+  s: http://cafe-trauma.com/uri/{user}/organization
+  p: http://purl.obolibrary.org/obo/OOSTT_00000042
+  o: _:w
+triple_1171:
+  option: :question_92:yes
+  s: _:v
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/IAO_0000310
+triple_1173:
+  option: :question_92:yes
+  s: _:u
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/IAO_0000572
+triple_1174:
+  option: :question_84:yes
+  s: http://cafe-trauma.com/uri/{user}/organization
+  p: http://purl.obolibrary.org/obo/OOSTT_00000042
+  o: _:x
+triple_1175:
+  option: :question_84:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000122
+triple_1176:
+  option: :question_72:yes
+  s: http://cafe-trauma.com/uri/{user}/organization
+  p: http://purl.obolibrary.org/obo/OOSTT_00000042
+  o: _:x
+triple_1177:
+  option: :question_72:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000121
+triple_1178:
+  option: :question_60:yes
+  s: http://cafe-trauma.com/uri/{user}/organization
+  p: http://purl.obolibrary.org/obo/OOSTT_tbd_has_policy
+  o: _:x
+triple_1179:
+  option: :question_60:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000135
+triple_1180:
+  option: :question_75:yes
+  s: http://cafe-trauma.com/uri/{user}/organization
+  p: http://purl.obolibrary.org/obo/OOSTT_00000123
+  o: _:x
+triple_1181:
+  option: :question_75:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000136
+triple_1182:
+  option: :question_63:yes
+  s: _:s
+  p: http://purl.obolibrary.org/obo/IAO_0000136
+  o: http://cafe-trauma.com/uri/{user}/orthopedic surgery liaison
+triple_1187:
+  option: :question_63:yes
+  s: _:s
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000129
+triple_1193:
+  option: :question_103:yes
+  s: _:s
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000129
+triple_1194:
+  option: :question_87:yes
+  s: http://cafe-trauma.com/uri/{user}/organization
+  p: http://purl.obolibrary.org/obo/OOSTT_00000123
+  o: _:x
+triple_1195:
+  option: :question_87:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000138
+triple_1196:
+  option: :question_76:yes
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000068
+triple_1197:
+  option: :question_76:yes
+  s: http://cafe-trauma.com/uri/{user}/neurosurgery liaison
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_1198:
+  option: :question_76:yes
+  s: http://cafe-trauma.com/uri/{user}/neurosurgery liaison
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:y
+triple_1199:
+  option: :question_76:yes
+  s: http://cafe-trauma.com/uri/{user}/neurosurgery liaison
+  p: http://purl.obolibrary.org/obo/OBI_0000846
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_1200:
+  option: :question_121:yes
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000163
+triple_1201:
+  option: :question_121:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_1202:
+  option: :question_121:yes
+  s: _:x
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:y
+triple_1203:
+  option: :question_121:yes
+  s: _:x
+  p: http://purl.obolibrary.org/obo/OBI_0000846
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_1204:
+  option: :question_91:yes
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000048
+triple_1205:
+  option: :question_91:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_1206:
+  option: :question_91:yes
+  s: _:x
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:y
+triple_1207:
+  option: :question_91:yes
+  s: _:x
+  p: http://purl.obolibrary.org/obo/RO_0002350
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_1232:
+  option: :question_83:yes
+  s: http://cafe-trauma.com/uri/{user}/neurosurgical_backup_plan_specification
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000129
+triple_1260:
+  option: :question_106:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_1261:
+  option: :question_106:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_1262:
+  option: :question_106:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:y
+triple_1263:
+  option: :question_106:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000170
+triple_1264:
+  option: :question_106:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1265:
+  option: :question_106:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:x
+triple_1266:
+  option: :question_106:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1267:
+  option: :question_106:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1268:
+  option: :question_106:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: _:{{value}}
+triple_1269:
+  option: :question_108:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_1270:
+  option: :question_108:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_1271:
+  option: :question_108:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:y
+triple_1272:
+  option: :question_108:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000176
+triple_1273:
+  option: :question_108:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1274:
+  option: :question_108:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:x
+triple_1275:
+  option: :question_108:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1276:
+  option: :question_108:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1277:
+  option: :question_108:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: _:{{value}}
+triple_1278:
+  option: :question_152:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_1279:
+  option: :question_152:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_1280:
+  option: :question_152:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:y
+triple_1281:
+  option: :question_152:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000203
+triple_1282:
+  option: :question_152:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1283:
+  option: :question_152:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:x
+triple_1284:
+  option: :question_152:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1285:
+  option: :question_152:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1286:
+  option: :question_152:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: _:{{value}}
+triple_1287:
+  option: :question_145:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_1288:
+  option: :question_145:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_1289:
+  option: :question_145:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:y
+triple_1290:
+  option: :question_145:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000222
+triple_1291:
+  option: :question_145:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1292:
+  option: :question_145:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:x
+triple_1293:
+  option: :question_145:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1294:
+  option: :question_145:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1295:
+  option: :question_145:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: _:{{value}}
+triple_1296:
+  option: :question_107:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_1297:
+  option: :question_107:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_1298:
+  option: :question_107:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:y
+triple_1299:
+  option: :question_107:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000174
+triple_1300:
+  option: :question_107:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1301:
+  option: :question_107:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:x
+triple_1302:
+  option: :question_107:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1303:
+  option: :question_107:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1304:
+  option: :question_107:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: _:{{value}}
+triple_1314:
+  option: :question_59:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_1315:
+  option: :question_59:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_1316:
+  option: :question_59:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:y
+triple_1317:
+  option: :question_59:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000215
+triple_1318:
+  option: :question_59:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1319:
+  option: :question_59:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:x
+triple_1320:
+  option: :question_59:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1321:
+  option: :question_59:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1322:
+  option: :question_59:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: _:{{value}}
+triple_1323:
+  option: :question_73:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000139
+triple_1324:
+  option: :question_73:yes
+  s: http://cafe-trauma.com/uri/{user}/organization
+  p: http://purl.obolibrary.org/obo/OOSTT_00000042
+  o: _:x
+triple_1341:
+  option: :question_47:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_1342:
+  option: :question_47:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_1343:
+  option: :question_47:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:y
+triple_1344:
+  option: :question_47:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000199
+triple_1345:
+  option: :question_47:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1346:
+  option: :question_47:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:x
+triple_1347:
+  option: :question_47:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1348:
+  option: :question_47:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1349:
+  option: :question_47:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: _:{{value}}
+triple_1350:
+  option: :question_62:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_1351:
+  option: :question_62:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_1352:
+  option: :question_62:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:y
+triple_1353:
+  option: :question_62:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000218
+triple_1354:
+  option: :question_62:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1355:
+  option: :question_62:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:x
+triple_1356:
+  option: :question_62:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1357:
+  option: :question_62:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1358:
+  option: :question_62:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: _:{{value}}
+triple_1359:
+  option: :question_79:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_1360:
+  option: :question_79:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_1361:
+  option: :question_79:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:y
+triple_1362:
+  option: :question_79:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000230
+triple_1363:
+  option: :question_79:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1364:
+  option: :question_79:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:x
+triple_1365:
+  option: :question_79:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1366:
+  option: :question_79:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1367:
+  option: :question_79:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: _:{{value}}
+triple_1368:
+  option: :question_54:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_1369:
+  option: :question_54:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_1370:
+  option: :question_54:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:y
+triple_1371:
+  option: :question_54:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000209
+triple_1372:
+  option: :question_54:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1373:
+  option: :question_54:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:x
+triple_1374:
+  option: :question_54:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1375:
+  option: :question_54:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1376:
+  option: :question_54:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: _:{{value}}
+triple_1377:
+  option: :question_67:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_1378:
+  option: :question_67:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_1379:
+  option: :question_67:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:y
+triple_1380:
+  option: :question_67:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000228
+triple_1381:
+  option: :question_67:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1382:
+  option: :question_67:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:x
+triple_1383:
+  option: :question_67:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1384:
+  option: :question_67:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1385:
+  option: :question_67:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: _:{{value}}
+triple_1386:
+  option: :question_81:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_1387:
+  option: :question_81:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_1388:
+  option: :question_81:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:y
+triple_1389:
+  option: :question_81:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000229
+triple_1390:
+  option: :question_81:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1391:
+  option: :question_81:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:x
+triple_1392:
+  option: :question_81:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1393:
+  option: :question_81:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1394:
+  option: :question_81:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: _:{{value}}
+triple_1395:
+  option: :question_42:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_1396:
+  option: :question_42:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_1397:
+  option: :question_42:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:y
+triple_1398:
+  option: :question_42:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000207
+triple_1399:
+  option: :question_42:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1400:
+  option: :question_42:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:x
+triple_1401:
+  option: :question_42:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1402:
+  option: :question_42:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1403:
+  option: :question_42:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: _:{{value}}
+triple_1404:
+  option: :question_64:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_1405:
+  option: :question_64:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_1406:
+  option: :question_64:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:y
+triple_1407:
+  option: :question_64:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000217
+triple_1408:
+  option: :question_64:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1409:
+  option: :question_64:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:x
+triple_1410:
+  option: :question_64:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1411:
+  option: :question_64:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1412:
+  option: :question_64:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: _:{{value}}
+triple_1413:
+  option: :question_77:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_1414:
+  option: :question_77:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_1415:
+  option: :question_77:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:y
+triple_1416:
+  option: :question_77:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000227
+triple_1417:
+  option: :question_77:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1418:
+  option: :question_77:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:x
+triple_1419:
+  option: :question_77:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1420:
+  option: :question_77:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1421:
+  option: :question_77:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: _:{{value}}
+triple_1422:
+  option: :question_141:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_1423:
+  option: :question_141:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/BFO_0000051
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_1424:
+  option: :question_141:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:y
+triple_1425:
+  option: :question_141:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000165
+triple_1426:
+  option: :question_141:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1427:
+  option: :question_141:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:x
+triple_1428:
+  option: :question_141:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1429:
+  option: :question_141:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1430:
+  option: :question_141:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: _:{{value}}
+triple_1431:
+  option: :question_93:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_1432:
+  option: :question_93:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_1433:
+  option: :question_93:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:y
+triple_1434:
+  option: :question_93:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000231
+triple_1435:
+  option: :question_93:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1436:
+  option: :question_93:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:x
+triple_1437:
+  option: :question_93:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1438:
+  option: :question_93:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1439:
+  option: :question_93:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: _:{{value}}
+triple_1440:
+  option: :question_94:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_1441:
+  option: :question_94:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_1442:
+  option: :question_94:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:y
+triple_1443:
+  option: :question_94:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000234
+triple_1444:
+  option: :question_94:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1445:
+  option: :question_94:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:x
+triple_1446:
+  option: :question_94:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1447:
+  option: :question_94:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1448:
+  option: :question_94:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: _:{{value}}
+triple_1458:
+  option: :question_45:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_1459:
+  option: :question_45:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_1460:
+  option: :question_45:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:y
+triple_1461:
+  option: :question_45:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000194
+triple_1462:
+  option: :question_45:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1463:
+  option: :question_45:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:x
+triple_1464:
+  option: :question_45:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1465:
+  option: :question_45:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1466:
+  option: :question_45:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: _:{{value}}
+triple_1476:
+  option: :question_46:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_1477:
+  option: :question_46:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_1478:
+  option: :question_46:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:y
+triple_1479:
+  option: :question_46:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000196
+triple_1480:
+  option: :question_46:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1481:
+  option: :question_46:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:x
+triple_1482:
+  option: :question_46:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1483:
+  option: :question_46:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1484:
+  option: :question_46:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: _:{{value}}
+triple_1485:
+  option: :question_44:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_1486:
+  option: :question_44:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_1487:
+  option: :question_44:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:y
+triple_1488:
+  option: :question_44:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000202
+triple_1489:
+  option: :question_44:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1490:
+  option: :question_44:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:x
+triple_1491:
+  option: :question_44:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1492:
+  option: :question_44:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1493:
+  option: :question_44:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: _:{{value}}
+triple_1494:
+  option: :question_153:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_1495:
+  option: :question_153:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_1496:
+  option: :question_153:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:y
+triple_1497:
+  option: :question_153:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000175
+triple_1498:
+  option: :question_153:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1499:
+  option: :question_153:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:x
+triple_1500:
+  option: :question_153:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1501:
+  option: :question_153:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1502:
+  option: :question_153:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: _:{{value}}
+triple_1503:
+  option: :question_92:yes
+  s: _:v
+  p: http://purl.obolibrary.org/obo/IAO_0000136
+  o: _:w
+triple_1504:
+  option: :question_92:yes
+  s: _:u
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:v
+triple_1505:
+  option: :question_92:yes
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000134
+triple_1507:
+  option: :question_147:option_54
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: _:x
+triple_1508:
+  option: :question_147:option_54
+  s: _:x
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:y
+triple_1509:
+  option: :question_147:option_54
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000064
+triple_1510:
+  option: :question_147:option_67
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: http://cafe-trauma.com/uri/{user}/trauma_medical_director
+triple_1511:
+  option: :question_147:option_87
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: http://cafe-trauma.com/uri/{user}/trauma_program_manager
+triple_1512:
+  option: :question_148:yes
+  s: http://cafe-trauma.com/uri/{user}/organization
+  p: http://purl.obolibrary.org/obo/OBI_0000846
+  o: _:x
+triple_1513:
+  option: :question_148:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000015
+triple_1514:
+  option: :question_149:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_program
+  p: http://purl.obolibrary.org/obo/OOSTT_00000145
+  o: _:x
+triple_1517:
+  option: :question_149:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/GEO_000000151
+triple_1518:
+  option: :question_149:yes
+  s: _:y
+  p: http://purl.obolibrary.org/obo/RO_0001025
+  o: _:x
+triple_1519:
+  option: :question_149:yes
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000015
+triple_1521:
+  option: :question_48:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1522:
+  option: :question_48:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1527:
+  option: :question_56:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1528:
+  option: :question_56:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1529:
+  option: :question_58:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1530:
+  option: :question_58:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1534:
+  option: :question_98:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/organization
+triple_1536:
+  option: :question_98:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_1537:
+  option: :question_9:yes
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000846
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_1538:
+  option: :question_150:int
+  s: http://cafe-trauma.com/uri/{user}/trauma_program
+  p: http://purl.obolibrary.org/obo/OOSTT_00000145
+  o: _:v
+triple_1539:
+  option: :question_150:int
+  s: _:v
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/GEO_000000151
+triple_1540:
+  option: :question_150:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/RO_0001025
+  o: _:v
+triple_1541:
+  option: :question_150:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:y
+triple_1542:
+  option: :question_150:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1543:
+  option: :question_150:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:x
+triple_1544:
+  option: :question_150:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_1545:
+  option: :question_150:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1546:
+  option: :question_150:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1547:
+  option: :question_150:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: _:{{value}}
+triple_1548:
+  option: :question_150:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000146
+triple_1549:
+  option: :question_147:option_
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000060
+triple_1550:
+  option: :question_147:option_
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000846
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_1551:
+  option: :question_74:option_75
+  s: _:pt
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:x
+triple_1552:
+  option: :question_74:option_76
+  s: _:ot
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:w
+triple_1553:
+  option: :question_74:option_77
+  s: _:rs
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:v
+triple_1554:
+  option: :question_100:yes
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_1555:
+  option: :question_101:yes
+  s: _:x
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:y
+triple_1558:
+  option: :question_151:int
+  s: http://cafe-trauma.com/uri/{user}/trauma_program
+  p: http://purl.obolibrary.org/obo/OOSTT_00000145
+  o: _:v
+triple_1559:
+  option: :question_151:int
+  s: _:v
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/GEO_000000151
+triple_1560:
+  option: :question_151:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/RO_0001025
+  o: _:v
+triple_1561:
+  option: :question_151:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:y
+triple_1562:
+  option: :question_151:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1563:
+  option: :question_151:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000161
+triple_1564:
+  option: :question_151:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:x
+triple_1565:
+  option: :question_151:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_1566:
+  option: :question_151:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1567:
+  option: :question_151:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1568:
+  option: :question_151:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: _:{{value}}
+triple_1571:
+  option: :question_156:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000185
+triple_1572:
+  option: :question_155:yes
+  s: _:x
+  p: http://purl.obolibrary.org/obo/IAO_0000136
+  o: http://cafe-trauma.com/uri/{user}/trauma_medical_director
+triple_1573:
+  option: :question_155:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000183
+triple_1577:
+  option: :question_69:yes
+  s: http://cafe-trauma.com/uri/{user}/orthopedic_backup_plan_specification
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000131
+triple_1578:
+  option: :question_92:yes
+  s: _:u
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: _:x
+triple_1579:
+  option: :question_92:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000073
+triple_1580:
+  option: :question_7:yes
+  s: _:z
+  p: http://purl.obolibrary.org/obo/RO_0001025
+  o: _:x
+triple_1581:
+  option: :question_7:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/GEO_000000151
+triple_1582:
+  option: :question_7:yes
+  s: _:x
+  p: http://purl.obolibrary.org/obo/RO_0002131
+  o: _:v
+triple_1583:
+  option: :question_7:yes
+  s: _:v
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/GEO_000000151
+triple_1584:
+  option: :question_7:yes
+  s: http://cafe-trauma.com/uri/{user}/organization
+  p: http://purl.obolibrary.org/obo/OOSTT_00000145
+  o: _:v
+triple_1589:
+  option: :question_28:option_92
+  s: _:y
+  p: http://purl.obolibrary.org/obo/IAO_0000136
+  o: http://cafe-trauma.com/uri/{user}/trauma_program_manager
+triple_1590:
+  option: :question_28:option_91
+  s: _:z
+  p: http://purl.obolibrary.org/obo/IAO_0000136
+  o: http://cafe-trauma.com/uri/{user}/trauma_program_manager
+triple_1591:
+  option: :question_28:option_91
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000187
+triple_1595:
+  option: :question_102:yes
+  s: http://cafe-trauma.com/uri/{user}/emergency_medicine_liaison
+  p: http://purl.obolibrary.org/obo/RO_0000087
+  o: _:z
+triple_1596:
+  option: :question_103:yes
+  s: _:s
+  p: http://purl.obolibrary.org/obo/IAO_0000136
+  o: http://cafe-trauma.com/uri/{user}/emergency_medicine_liaison
+triple_1597:
+  option: :question_158:yes
+  s: _:x
+  p: http://purl.obolibrary.org/obo/IAO_0000136
+  o: http://cafe-trauma.com/uri/{user}/emergency_medicine_liaison
+triple_1598:
+  option: :question_158:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000162
+triple_1599:
+  option: :question_135:yes
+  s: _:y
+  p: http://purl.obolibrary.org/obo/BFO_0000054
+  o: _:z
+triple_1600:
+  option: :question_135:yes
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000164
+triple_1601:
+  option: :question_111:yes
+  s: http://cafe-trauma.com/uri/{user}/organization
+  p: http://purl.obolibrary.org/obo/OOSTT_00000123
+  o: _:x
+triple_1603:
+  option: :question_111:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000180
+triple_1604:
+  option: :question_159:yes
+  s: http://cafe-trauma.com/uri/{user}/organization
+  p: http://purl.obolibrary.org/obo/OOSTT_00000123
+  o: _:x
+triple_1605:
+  option: :question_159:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000178
+triple_1606:
+  option: Unknown
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000182
+triple_1607:
+  option: :question_21:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_medical_director
+  p: http://purl.obolibrary.org/obo/RO_0000053
+  o: _:w
+triple_1608:
+  option: :question_31:option_66
+  s: _:z
+  p: http://purl.obolibrary.org/obo/RO_0000052
+  o: _:a
+triple_1609:
+  option: :question_86:yes
+  s: http://cafe-trauma.com/uri/{user}/organization
+  p: http://purl.obolibrary.org/obo/OOSTT_00000123
+  o: _:z
+triple_1610:
+  option: :question_129:yes
+  s: _:u
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0000245
+triple_1611:
+  option: :question_129:yes
+  s: _:u
+  p: http://purl.obolibrary.org/obo/BFO_0000051
+  o: http://cafe-trauma.com/uri/{user}/organization
+triple_1612:
+  option: :question_129:yes
+  s: _:u
+  p: http://purl.obolibrary.org/obo/BFO_0000051
+  o: _:v
+triple_1613:
+  option: :question_129:yes
+  s: _:v
+  p: http://purl.obolibrary.org/obo/RO_0000053
+  o: http://purl.obolibrary.org/obo/OOSTT_00000251
+triple_1614:
+  option: :question_129:yes
+  s: _:v
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0000245
+triple_1615:
+  option: :question_161:yes
+  s: http://cafe-trauma.com/uri/{user}/organization
+  p: http://purl.obolibrary.org/obo/RO_0000053
+  o: http://purl.obolibrary.org/obo/OOSTT_00000252
+triple_1616:
+  option: :question_160:yes
+  s: http://cafe-trauma.com/uri/{user}/organization
+  p: http://purl.obolibrary.org/obo/RO_0000056
+  o: http://cafe-trauma.com/uri/{user}/trauma_system_creation
+triple_1617:
+  option: :question_160:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_system_creation
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000255
+triple_1618:
+  option: :question_163:yes
+  s: http://cafe-trauma.com/uri/{user}/organization
+  p: http://purl.obolibrary.org/obo/OBI_0000846
+  o: http://cafe-trauma.com/uri/{user}/trauma_system
+triple_1619:
+  option: :question_163:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_system
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000015
+triple_1620:
+  option: :question_162:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_system_creation
+  p: http://purl.obolibrary.org/obo/RO_0000057
+  o: http://cafe-trauma.com/uri/{user}/multidisciplinary_stakeholder_group
+triple_1621:
+  option: :question_162:yes
+  s: http://cafe-trauma.com/uri/{user}/multidisciplinary_stakeholder_group
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000256
+triple_1622:
+  option: :question_165:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_system
+  p: http://purl.obolibrary.org/obo/RO_0000056
+  o: http://cafe-trauma.com/uri/{user}/trauma_system_operation
+triple_1623:
+  option: :question_165:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_system_operation
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000257
+triple_1624:
+  option: :question_165:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_system_operation
+  p: http://purl.obolibrary.org/obo/RO_0000057
+  o: http://cafe-trauma.com/uri/{user}/multidisciplinary_stakeholder_group
+triple_1625:
+  option: :question_165:yes
+  s: http://cafe-trauma.com/uri/{user}/multidisciplinary_stakeholder_group
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000256
+triple_1628:
+  option: :question_166:option_101
+  s: http://cafe-trauma.com/uri/{user}/multidisciplinary_stakeholder_group
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: _:v
+triple_1629:
+  option: :question_166:option_101
+  s: _:v
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000261
+triple_1630:
+  option: :question_166:option_96
+  s: http://cafe-trauma.com/uri/{user}/multidisciplinary_stakeholder_group
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: _:w
+triple_1631:
+  option: :question_166:option_96
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000258
+triple_1632:
+  option: :question_166:option_100
+  s: http://cafe-trauma.com/uri/{user}/multidisciplinary_stakeholder_group
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: _:x
+triple_1633:
+  option: :question_166:option_100
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000265
+triple_1634:
+  option: :question_166:option_97
+  s: http://cafe-trauma.com/uri/{user}/multidisciplinary_stakeholder_group
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: _:y
+triple_1635:
+  option: :question_166:option_97
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000259
+triple_1636:
+  option: :question_166:option_98
+  s: http://cafe-trauma.com/uri/{user}/multidisciplinary_stakeholder_group
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: _:z
+triple_1637:
+  option: :question_166:option_98
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000260
+triple_1638:
+  option: :question_166:option_102
+  s: http://cafe-trauma.com/uri/{user}/multidisciplinary_stakeholder_group
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: _:r
+triple_1639:
+  option: :question_166:option_102
+  s: _:r
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_1640:
+  option: :question_166:option_102
+  s: _:r
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: http://purl.obolibrary.org/obo/OOSTT_00000206
+triple_1641:
+  option: :question_166:option_103
+  s: http://cafe-trauma.com/uri/{user}/multidisciplinary_stakeholder_group
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: _:s
+triple_1642:
+  option: :question_166:option_103
+  s: _:s
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_1643:
+  option: :question_166:option_103
+  s: _:s
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: http://purl.obolibrary.org/obo/OOSTT_00000262
+triple_1644:
+  option: :question_167:yes
+  s: http://cafe-trauma.com/uri/{user}/multidisciplinary_stakeholder_group
+  p: http://purl.obolibrary.org/obo/OOSTT_00000123
+  o: _:x
+triple_1645:
+  option: :question_167:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000266
+triple_1646:
+  option: :question_169:yes
+  s: http://cafe-trauma.com/uri/{user}/multidisciplinary_stakeholder_group
+  p: http://purl.obolibrary.org/obo/RO_0000056
+  o: _:x
+triple_1647:
+  option: :question_169:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000267
+triple_1648:
+  option: :question_169:yes
+  s: _:x
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: http://cafe-trauma.com/uri/{user}/trauma_system
+triple_1649:
+  option: :question_170:yes
+  s: http://cafe-trauma.com/uri/{user}/multidisciplinary_stakeholder_group
+  p: http://purl.obolibrary.org/obo/BFO_0000051
+  o: _:x
+triple_1650:
+  option: :question_170:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000269
+triple_1651:
+  option: :question_171:yes
+  s: http://cafe-trauma.com/uri/{user}/lead_agency
+  p: http://purl.obolibrary.org/obo/OOSTT_00000042
+  o: http://cafe-trauma.com/uri/{user}/trauma_system
+triple_1652:
+  option: :question_171:yes
+  s: http://cafe-trauma.com/uri/{user}/lead_agency
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000014
+triple_1653:
+  option: Unknown
+  s: http://cafe-trauma.com/uri/{user}/lead_agency
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000271
+triple_1654:
+  option: Unknown
+  s: http://cafe-trauma.com/uri/{user}/lead_agency
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000272
+triple_1655:
+  option: Unknown
+  s: http://cafe-trauma.com/uri/{user}/lead_agency
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000273
+triple_1656:
+  option: Unknown
+  s: http://cafe-trauma.com/uri/{user}/lead_agency
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000275
+triple_1657:
+  option: Unknown
+  s: http://cafe-trauma.com/uri/{user}/lead_agency
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000277
+triple_1658:
+  option: Unknown
+  s: http://cafe-trauma.com/uri/{user}/lead_agency
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000276
+triple_1664:
+  option: :question_174:yes
+  s: http://cafe-trauma.com/uri/{user}/lead_agency
+  p: http://purl.obolibrary.org/obo/RO_0000053
+  o: http://purl.obolibrary.org/obo/OOSTT_00000280
+triple_1665:
+  option: Unknown
+  s: http://cafe-trauma.com/uri/{user}/lead_agency
+  p: http://purl.obolibrary.org/obo/OOSTT_00000281
+  o: _:x
+triple_1666:
+  option: Unknown
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000059
+triple_1667:
+  option: Unknown
+  s: _:x
+  p: http://purl.obolibrary.org/obo/BFO_0000051
+  o: _:y
+triple_1668:
+  option: Unknown
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000281
+triple_1669:
+  option: Unknown
+  s: _:y
+  p: http://purl.obolibrary.org/obo/IAO_0000136
+  o: http://cafe-trauma.com/uri/{user}/trauma_system
+triple_1670:
+  option: Unknown
+  s: _:y
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:z
+triple_1671:
+  option: Unknown
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1672:
+  option: Unknown
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: _:{{value}}
+triple_1673:
+  option: :question_176:int
+  s: http://cafe-trauma.com/uri/{user}/lead_agency
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: _:x
+triple_1674:
+  option: :question_176:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_1675:
+  option: :question_176:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/RO_0000053
+  o: _:y
+triple_1676:
+  option: :question_176:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000191
+triple_1677:
+  option: :question_176:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/OBI_0000846
+  o: http://cafe-trauma.com/uri/{user}/trauma_system
+triple_1678:
+  option: :question_177:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_system
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: http://cafe-trauma.com/uri/{user}/trauma_system_manager
+triple_1679:
+  option: :question_177:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_system_manager
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_1680:
+  option: :question_177:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_system_manager
+  p: http://purl.obolibrary.org/obo/RO_0000053
+  o: http://purl.obolibrary.org/obo/OOSTT_00000282
+triple_1681:
+  option: :question_178:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_system_manager
+  p: http://purl.obolibrary.org/obo/OBI_0000846
+  o: http://cafe-trauma.com/uri/{user}/lead_agency
+triple_1682:
+  option: :question_179:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_system
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: http://cafe-trauma.com/uri/{user}/trauma_registrar
+triple_1683:
+  option: :question_179:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_registrar
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_1684:
+  option: :question_179:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_registrar
+  p: http://purl.obolibrary.org/obo/RO_0000053
+  o: http://purl.obolibrary.org/obo/OOSTT_00000022
+triple_1685:
+  option: :question_180:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_registrar
+  p: http://purl.obolibrary.org/obo/OBI_0000846
+  o: http://cafe-trauma.com/uri/{user}/lead_agency
+triple_1686:
+  option: :question_181:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_system
+  p: http://purl.obolibrary.org/obo/OBI_0001688
+  o: http://cafe-trauma.com/uri/{user}/performance_improvement_coordinator
+triple_1687:
+  option: :question_181:yes
+  s: http://cafe-trauma.com/uri/{user}/performance_improvement_coordinator
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/NCBITaxon_9606
+triple_1688:
+  option: :question_181:yes
+  s: http://cafe-trauma.com/uri/{user}/performance_improvement_coordinator
+  p: http://purl.obolibrary.org/obo/RO_0000053
+  o: http://purl.obolibrary.org/obo/OOSTT_00000283
+triple_1689:
+  option: :question_182:yes
+  s: http://cafe-trauma.com/uri/{user}/performance_improvement_coordinator
+  p: http://purl.obolibrary.org/obo/OBI_0000846
+  o: http://cafe-trauma.com/uri/{user}/lead_agency
+triple_1691:
+  option: :question_183:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_system_plan
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000094
+triple_1692:
+  option: :question_206:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_system_plan
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000287
+triple_1693:
+  option: :question_185:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_system_plan_development_policy
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000291
+triple_1694:
+  option: :question_185:yes
+  s: http://cafe-trauma.com/uri/{user}/organization
+  p: http://purl.obolibrary.org/obo/OOSTT_00000123
+  o: http://cafe-trauma.com/uri/{user}/trauma_system_plan_development_policy
+triple_1695:
+  option: :question_183:yes
+  s: http://cafe-trauma.com/uri/{user}/organization
+  p: http://purl.obolibrary.org/obo/OOSTT_00000123
+  o: http://cafe-trauma.com/uri/{user}/trauma_system_plan
+triple_1696:
+  option: :question_186:yes
+  s: _:a
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000293
+triple_1697:
+  option: :question_186:yes
+  s: _:a
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: _:b
+triple_1698:
+  option: :question_186:yes
+  s: _:b
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/trauma_system_plan_development_policy
+triple_1699:
+  option: :question_186:yes
+  s: _:a
+  p: http://purl.obolibrary.org/obo/IAO_0000142
+  o: http://cafe-trauma.com/uri/{user}/multidisciplinary_stakeholder_group
+triple_1700:
+  option: :question_186:yes
+  s: _:b
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/IAO_0000007
+triple_1701:
+  option: Unknown
+  s: http://cafe-trauma.com/uri/{user}/trauma_system
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000295
+triple_1702:
+  option: Unknown
+  s: http://cafe-trauma.com/uri/{user}/trauma_system
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000294
+triple_1703:
+  option: :question_184:int
+  s: http://cafe-trauma.com/uri/{user}/trauma_system_plan
+  p: http://purl.org/dc/terms/dateAccepted
+  o: http://www.w3.org/2001/XMLSchema#date
+triple_1704:
+  option: :question_189:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000296
+triple_1705:
+  option: :question_189:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/trauma_system
+triple_1706:
+  option: :question_189:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:y
+triple_1707:
+  option: :question_189:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1708:
+  option: :question_189:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:x
+triple_1709:
+  option: :question_189:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_1710:
+  option: :question_189:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1711:
+  option: :question_189:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1712:
+  option: :question_189:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: http://cafe-trauma.com/uri/{{value}}
+triple_1713:
+  option: :question_190:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000297
+triple_1714:
+  option: :question_190:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/EMS
+triple_1715:
+  option: :question_190:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:y
+triple_1716:
+  option: :question_190:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1717:
+  option: :question_190:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:x
+triple_1718:
+  option: :question_190:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_1719:
+  option: :question_190:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1720:
+  option: :question_190:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1721:
+  option: :question_190:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: http://cafe-trauma.com/uri/{{value}}
+triple_1722:
+  option: :question_191:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000300
+triple_1723:
+  option: :question_191:yes
+  s: _:x
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/EMS
+triple_1724:
+  option: :question_191:yes
+  s: http://cafe-trauma.com/uri/{user}/EMS
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000298
+triple_1725:
+  option: :question_191:yes
+  s: http://cafe-trauma.com/uri/{user}/EMS
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/trauma_system
+triple_1726:
+  option: :question_193:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000302
+triple_1727:
+  option: :question_193:yes
+  s: _:x
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/EMS
+triple_1728:
+  option: :question_195:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000303
+triple_1729:
+  option: :question_195:yes
+  s: _:x
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/EMS
+triple_1730:
+  option: :question_190:int
+  s: http://cafe-trauma.com/uri/{user}/EMS
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/trauma_system
+triple_1731:
+  option: :question_194:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000304
+triple_1732:
+  option: :question_194:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/EMS
+triple_1733:
+  option: :question_194:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:x
+triple_1734:
+  option: :question_194:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1735:
+  option: :question_194:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:y
+triple_1736:
+  option: :question_194:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_1737:
+  option: :question_194:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1738:
+  option: :question_194:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1739:
+  option: :question_194:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: http://cafe-trauma.com/uri/{{value}}
+triple_1740:
+  option: :question_196:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000305
+triple_1741:
+  option: :question_196:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/EMS
+triple_1742:
+  option: :question_196:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:x
+triple_1743:
+  option: :question_196:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1744:
+  option: :question_196:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:y
+triple_1745:
+  option: :question_196:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_1746:
+  option: :question_196:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1747:
+  option: :question_196:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1748:
+  option: :question_196:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: http://cafe-trauma.com/uri/{{value}}
+triple_1749:
+  option: :question_207:yes
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000306
+triple_1750:
+  option: :question_207:yes
+  s: _:x
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/trauma_system
+triple_1751:
+  option: :question_199:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/trauma_system
+triple_1752:
+  option: :question_199:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000307
+triple_1753:
+  option: :question_199:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:x
+triple_1754:
+  option: :question_199:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:y
+triple_1755:
+  option: :question_199:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1756:
+  option: :question_199:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_1757:
+  option: :question_199:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1758:
+  option: :question_199:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1759:
+  option: :question_199:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: http://cafe-trauma.com/uri/{{value}}
+triple_1760:
+  option: :question_207:yes
+  s: _:x
+  p: http://purl.obolibrary.org/obo/RO_0000053
+  o: _:y
+triple_1761:
+  option: :question_207:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0000245
+triple_1762:
+  option: :question_200:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0000245
+triple_1763:
+  option: :question_200:yes
+  s: _:x
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/trauma_system
+triple_1764:
+  option: :question_200:yes
+  s: _:x
+  p: http://purl.obolibrary.org/obo/RO_0000053
+  o: _:y
+triple_1765:
+  option: :question_200:yes
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000308
+triple_1766:
+  option: :question_208:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000309
+triple_1767:
+  option: :question_208:yes
+  s: _:y
+  p: http://purl.obolibrary.org/obo/RO_0000053
+  o: _:x
+triple_1768:
+  option: :question_208:yes
+  s: _:y
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/trauma_system
+triple_1769:
+  option: :question_208:yes
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0000245
+triple_1770:
+  option: :question_201:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/trauma_system
+triple_1771:
+  option: :question_201:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:x
+triple_1772:
+  option: :question_201:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:y
+triple_1773:
+  option: :question_201:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1774:
+  option: :question_201:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_1775:
+  option: :question_201:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1776:
+  option: :question_201:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1777:
+  option: :question_201:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: http://cafe-trauma.com/uri/{{value}}
+triple_1778:
+  option: :question_209:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000311
+triple_1779:
+  option: :question_209:yes
+  s: _:y
+  p: http://purl.obolibrary.org/obo/RO_0000053
+  o: _:x
+triple_1780:
+  option: :question_209:yes
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0000245
+triple_1781:
+  option: :question_209:yes
+  s: _:y
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/trauma_system
+triple_1782:
+  option: :question_202:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000312
+triple_1783:
+  option: :question_202:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:x
+triple_1784:
+  option: :question_202:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:y
+triple_1785:
+  option: :question_202:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1786:
+  option: :question_202:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_1787:
+  option: :question_202:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1788:
+  option: :question_202:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1789:
+  option: :question_202:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: http://cafe-trauma.com/uri/{{value}}
+triple_1790:
+  option: :question_210:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000313
+triple_1791:
+  option: :question_210:yes
+  s: _:x
+  p: http://purl.obolibrary.org/obo/RO_0000053
+  o: _:y
+triple_1792:
+  option: :question_210:yes
+  s: _:y
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/trauma_system
+triple_1793:
+  option: :question_210:yes
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0000245
+triple_1794:
+  option: :question_203:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000315
+triple_1795:
+  option: :question_203:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:x
+triple_1796:
+  option: :question_203:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:y
+triple_1797:
+  option: :question_203:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1798:
+  option: :question_203:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_1799:
+  option: :question_203:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1800:
+  option: :question_203:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1801:
+  option: :question_203:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: http://cafe-trauma.com/uri/{{value}}
+triple_1802:
+  option: :question_211:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000314
+triple_1803:
+  option: :question_211:yes
+  s: _:x
+  p: http://purl.obolibrary.org/obo/RO_0000053
+  o: _:y
+triple_1804:
+  option: :question_211:yes
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0000245
+triple_1805:
+  option: :question_211:yes
+  s: _:y
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/trauma_system
+triple_1806:
+  option: :question_204:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000316
+triple_1807:
+  option: :question_204:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:x
+triple_1808:
+  option: :question_204:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:y
+triple_1809:
+  option: :question_204:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1810:
+  option: :question_204:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_1811:
+  option: :question_204:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1812:
+  option: :question_204:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1813:
+  option: :question_204:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: http://cafe-trauma.com/uri/{{value}}
+triple_1814:
+  option: Unknown
+  s: http://cafe-trauma.com/uri/{user}/trauma_system
+  p: http://purl.obolibrary.org/obo/RO_0001025
+  o: _:y
+triple_1815:
+  option: Unknown
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/GEO_000000151
+triple_1816:
+  option: Unknown
+  s: http://purl.obolibrary.org/obo/OOSTT_00000206
+  p: http://purl.obolibrary.org/obo/OOSTT_00000145
+  o: _:y
+triple_1817:
+  option: Unknown
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000317
+triple_1818:
+  option: Unknown
+  s: _:x
+  p: http://purl.obolibrary.org/obo/OOSTT_00000145
+  o: _:y
+triple_1819:
+  option: :question_198:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000318
+triple_1820:
+  option: :question_198:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_system
+  p: http://purl.obolibrary.org/obo/OOSTT_00000123
+  o: _:x
+triple_1821:
+  option: :question_197:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000319
+triple_1822:
+  option: :question_197:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_system
+  p: http://purl.obolibrary.org/obo/OOSTT_00000123
+  o: _:x
+triple_1823:
+  option: :question_212:yes
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000322
+triple_1824:
+  option: :question_212:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_system
+  p: http://purl.obolibrary.org/obo/OOSTT_00000123
+  o: _:x
+triple_1825:
+  option: :question_188:option_
+  s: http://cafe-trauma.com/uri/{user}/trauma_system
+  p: http://purl.obolibrary.org/obo/OOSTT_00000123
+  o: _:x
+triple_1826:
+  option: :question_188:option_113
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000320
+triple_1827:
+  option: :question_188:option_114
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000321
+triple_1828:
+  option: Unknown
+  s: http://cafe-trauma.com/uri/{user}/multidisciplinary_stakeholder_group
+  p: http://purl.obolibrary.org/obo/BFO_0000051
+  o: _:freq
+triple_1829:
+  option: Unknown
+  s: _:freq
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/UO_0000105
+triple_1830:
+  option: Unknown
+  s: _:freq
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: _:{}
+triple_1831:
+  option: Unknown
+  s: _:freq
+  p: http://purl.obolibrary.org/obo/OBI_0001931
+  o: http://purl.obolibrary.org/obo/UO_0000035
+triple_1832:
+  option: Unknown
+  s: _:freq
+  p: http://purl.obolibrary.org/obo/OBI_0001931
+  o: http://purl.obolibrary.org/obo/UO_0000034
+triple_1833:
+  option: :question_213:yes
+  s: http://cafe-trauma.com/uri/{user}/trauma_surgery_backup_plan
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000364
+triple_1834:
+  option: :question_215:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_1835:
+  option: :question_215:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_1836:
+  option: :question_215:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:y
+triple_1837:
+  option: :question_215:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000368
+triple_1838:
+  option: :question_215:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1839:
+  option: :question_215:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:x
+triple_1840:
+  option: :question_215:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1841:
+  option: :question_215:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1842:
+  option: :question_215:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: _:{{value}}
+triple_1843:
+  option: :question_214:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_1844:
+  option: :question_214:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1845:
+  option: :question_214:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:x
+triple_1846:
+  option: :question_214:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_1847:
+  option: :question_214:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:y
+triple_1848:
+  option: :question_214:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1849:
+  option: :question_214:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1850:
+  option: :question_214:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: _:{{value}}
+triple_1851:
+  option: :question_214:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000369
+triple_1852:
+  option: :question_216:int
+  s: _:x
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000032
+triple_1853:
+  option: :question_216:int
+  s: _:y
+  p: http://purl.obolibrary.org/obo/BFO_0000050
+  o: http://cafe-trauma.com/uri/{user}/trauma_program
+triple_1854:
+  option: :question_216:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000293
+  o: _:y
+triple_1855:
+  option: :question_216:int
+  s: _:y
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OOSTT_00000328
+triple_1856:
+  option: :question_216:int
+  s: _:z
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/APOLLO_SV_00000033
+triple_1857:
+  option: :question_216:int
+  s: _:z
+  p: http://purl.obolibrary.org/obo/OBI_0000299
+  o: _:x
+triple_1858:
+  option: :question_216:int
+  s: _:x
+  p: http://purl.obolibrary.org/obo/OBI_0001938
+  o: _:w
+triple_1859:
+  option: :question_216:int
+  s: _:w
+  p: http://www.w3.org/1999/02/22-rdf-syntax-ns#type
+  o: http://purl.obolibrary.org/obo/OBI_0001933
+triple_1860:
+  option: :question_216:int
+  s: _:w
+  p: http://purl.obolibrary.org/obo/OBI_0001937
+  o: _:{{value}}

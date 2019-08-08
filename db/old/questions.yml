@@ -1,0 +1,912 @@
+---
+question_1:
+  category: basic
+  text: Does your institution have a {trauma program|trauma program}?
+  q_type: radio
+  short_name: 
+question_7:
+  category: regional-trauma-infrastructure
+  text: Are there efforts by government organizations (regional or state) to create
+    a {trauma system|trauma system} in an area that overlaps with the area your organization
+    services?
+  q_type: radio
+  short_name: 
+question_8:
+  category: regional-trauma-infrastructure
+  text: Does the hospital trauma program staff participate in government planning
+    and development of a trauma system?
+  q_type: radio
+  short_name: 
+question_9:
+  category: trauma-program
+  text: Does the {trauma program leadership|trauma program leadership} (TMD, TPM)
+    have the authority to develop, oversee and improve the care of the injured within
+    the facility?
+  q_type: radio
+  short_name: 
+question_10:
+  category: basic
+  text: Does your trauma program have a {Trauma Program Operational Review Committee|trauma
+    program operational review committee}?
+  q_type: radio
+  short_name: 
+question_11:
+  category: basic
+  text: Does your trauma program have {Trauma Peer Review Committee Meetings|trauma
+    peer review committee meeting}?
+  q_type: radio
+  short_name: 
+question_12:
+  category: basic
+  text: Does your trauma program have a {trauma medical director|trauma medical director
+    role}?
+  q_type: radio
+  short_name: 
+question_13:
+  category: trauma-medical-director
+  text: Is the TMD {board-eligible|board eligible trauma surgeon role} or {board certified|board
+    certified trauma surgeon role}?
+  q_type: combo
+  short_name: 
+question_14:
+  category: trauma-medical-director
+  text: Does the {trauma medical director|test} participate in {trauma call|trauma
+    on call plan specification}?
+  q_type: radio
+  short_name: trauma_call
+question_15:
+  category: trauma-medical-director
+  text: Does the trauma medical director lead the {trauma QI and patient safety program|trauma
+    quality improvement and patient safety program} within the trauma center?
+  q_type: radio
+  short_name: lead_qi
+question_16:
+  category: trauma-program-manager
+  text: What level of education does your trauma program manager have?
+  q_type: combo
+  short_name: education_level
+question_19:
+  category: trauma-medical-director
+  text: Does the TMD have the authority to contribute to the {trauma program manager|trauma
+    program manager role}’s performance evaluation?
+  q_type: radio
+  short_name: tpm_perf_eval
+question_20:
+  category: trauma-medical-director
+  text: Is your TMD a member of {national or regional trauma organizations|trauma
+    professional organization}?
+  q_type: checkbox
+  short_name: 
+question_21:
+  category: trauma-medical-director
+  text: Does your TMD comply with the requirement to have 18 hours of {trauma-specific
+    CME|continuing trauma education plan specification} every three years?
+  q_type: radio
+  short_name: 
+question_22:
+  category: trauma-medical-director
+  text: Does the TMD have sufficient authority to set the qualifications for the trauma
+    panel members?
+  q_type: radio
+  short_name: qualifications_trauma_panel
+question_24:
+  category: trauma-medical-director
+  text: Does the TMD have the authority to appoint members to the {trauma panel|trauma
+    on call plan specification}?
+  q_type: radio
+  short_name: appoint_trauma_panel
+question_25:
+  category: basic
+  text: Does your institution have a {trauma program manager|trauma program manager
+    role}?
+  q_type: radio
+  short_name: 
+question_26:
+  category: trauma-program-manager
+  text: Is the TPM responsible for evaluating nursing care of the trauma patients?
+  q_type: radio
+  short_name: evaluating_nursing
+question_27:
+  category: trauma-program-manager
+  text: Does the trauma program manager have documented participation in {continuing
+    trauma education|continuing trauma education plan specification}?
+  q_type: radio
+  short_name: continuing_education
+question_28:
+  category: trauma-program-manager
+  text: Is the TPM current in {ATNC|advanced trauma care for nurses certificate} or
+    {TNCC|trauma nursing core course certificate}?
+  q_type: checkbox
+  short_name: certifications
+question_30:
+  category: trauma-program-manager
+  text: Has your facility's TPM {full time position|full time employee role}?
+  q_type: radio
+  short_name: 
+question_31:
+  category: trauma-program-manager
+  text: Who does the TPM report to? (Please check all that apply)
+  q_type: checkbox
+  short_name: reporting
+question_33:
+  category: basic
+  text: Does your institution have a {trauma registrar|trauma registrar role}?
+  q_type: radio
+  short_name: 
+question_34:
+  category: trauma-registrar
+  text: Does your Trauma Registrar have a {job description|trauma registrar job description}?
+  q_type: radio
+  short_name: 
+question_35:
+  category: trauma-registrar
+  text: Is the Registrar a full-time position?
+  q_type: radio
+  short_name: 
+question_36:
+  category: trauma-registrar
+  text: Has the Registrar attended an {abbreviated injury scale training course|abbreviated
+    injury scale training course} (AAAM course)?
+  q_type: radio
+  short_name: 
+question_37:
+  category: trauma-program
+  text: Your {trauma program|trauma program role} has official {physician liaisons|specialty
+    liaison} in these specialties.
+  q_type: checkbox
+  short_name: 
+question_41:
+  category: general-surgery
+  text: Does your facility provide {24/7 general surgical coverage|continuous general
+    surgery coverage policy}?
+  q_type: radio
+  short_name: 
+question_42:
+  category: trauma-surgery
+  text: Number of trauma surgeons on the trauma panel?
+  q_type: int
+  short_name: trauma_total
+question_43:
+  category: trauma-surgery
+  text: Number of {trauma surgeons|trauma surgeon role} that have {privileges in general
+    surgery|general surgery privileges role}?
+  q_type: int
+  short_name: 
+question_44:
+  category: trauma-surgery
+  text: Number of trauma surgeons on the trauma panel who are {board-eligible|board
+    eligible trauma surgeon role}?
+  q_type: int
+  short_name: trauma_board_eligible
+question_45:
+  category: general-surgery
+  text: Number of {general surgeons|general surgeon role} on the trauma panel that
+    have successfully completed the ATLS course at least once?
+  q_type: int
+  short_name: 
+question_46:
+  category: general-surgery
+  text: Number of general surgeons current in ATLS?
+  q_type: int
+  short_name: 
+question_47:
+  category: trauma-surgery
+  text: Number of trauma surgeons on the trauma panel who have documented 18 hours
+    of trauma-specific CME every three years?
+  q_type: int
+  short_name: trauma_cme
+question_48:
+  category: trauma-surgery
+  text: Number of trauma surgeons on the trauma panel who have participated in an
+    {internal education process|trauma program internal practice-based learning course
+    certificate} conducted by the trauma program based on the principles of practice-based
+    learning?
+  q_type: int
+  short_name: trauma_internal_education
+question_54:
+  category: trauma-surgery
+  text: Number of trauma surgeons who, when on call, take {call exclusively|on call
+    exclusivity obligee role} for the trauma center?
+  q_type: int
+  short_name: 
+question_56:
+  category: trauma-surgery
+  text: Number of trauma surgeons who provide care for non-trauma emergencies when
+    on call?
+  q_type: int
+  short_name: non_trauma_on_call
+question_57:
+  category: trauma-surgery
+  text: Does your facility have a {trauma surgeon backup call schedule|trauma surgeon
+    backup call schedule} ?
+  q_type: radio
+  short_name: trauma_backup_schedule
+question_58:
+  category: trauma-surgery
+  text: Number of trauma surgeons on the trauma panel with added {certifications in
+    critical care|critical care certificate course plan specfication}?
+  q_type: int
+  short_name: trauma_certifications
+question_59:
+  category: trauma-surgery
+  text: Number of {trauma fellowship|trauma surgery fellowship program}-trained surgeons
+    on the trauma panel?
+  q_type: int
+  short_name: trauma_fellowship
+question_60:
+  category: orthopedic-surgery
+  text: Does your facility provide {24/7 orthopedic coverage|continuous orthopedic
+    surgery coverage policy}?
+  q_type: radio
+  short_name: ortho_247_coverage
+question_61:
+  category: orthopedic-surgery
+  text: Is there an {orthopedic surgeon liaison|orthopedic surgery liaison role} designated
+    to the trauma program?
+  q_type: radio
+  short_name: ortho_liason
+question_62:
+  category: orthopedic-surgery
+  text: Number of orthopedic surgeons on the trauma panel who have documented 18 hours
+    of trauma-specific CME every three years?
+  q_type: int
+  short_name: ortho_cme
+question_63:
+  category: orthopedic-surgery
+  text: Does the orthopedic surgeon liaison participate in 50% of the Trauma Peer
+    Review Committee meetings?
+  q_type: radio
+  short_name: ortho_meetings
+question_64:
+  category: orthopedic-surgery
+  text: Number of {orthopedic surgeons|orthopedic surgeon role} on the trauma panel?
+  q_type: int
+  short_name: ortho_total
+question_65:
+  category: orthopedic-surgery
+  text: Number of the orthopedic surgeons on the trauma panel who are {board-eligible|board
+    eligible orthopedic surgeon role}?
+  q_type: int
+  short_name: ortho_board_eligible
+question_67:
+  category: orthopedic-surgery
+  text: Number of on-call orthopedic surgeons who, when on call, take call exclusively
+    for the trauma center?
+  q_type: int
+  short_name: ortho_exclusive
+question_68:
+  category: orthopedic-surgery
+  text: Does your facility have {orthopedic surgery backup plan|orthopedic surgeon
+    backup call schedule}?
+  q_type: radio
+  short_name: 
+question_69:
+  category: orthopedic-surgery
+  text: Is the {back-up plan|orthopedic surgeon backup call schedule} approved by
+    your TMD?
+  q_type: radio
+  short_name: 
+question_70:
+  category: general-surgery
+  text: Check each capability present at this Level I trauma center.
+  q_type: checkbox
+  short_name: 
+question_72:
+  category: orthopedic-surgery
+  text: Does facility have an {orthopedic surgery residency program|orthopedic surgery
+    residency program}?
+  q_type: radio
+  short_name: ortho_surgery_residency_program
+question_73:
+  category: orthopedic-surgery
+  text: Does the facility have an {orthopedic trauma fellowship|orthopedic surgery
+    fellowship program}?
+  q_type: radio
+  short_name: ortho_trauma_fellowship
+question_74:
+  category: trauma-program
+  text: Which of the following participates in trauma care in your {trauma program|trauma
+    program role}?
+  q_type: checkbox
+  short_name: 
+question_75:
+  category: neurosurgery
+  text: Does your facility provide {24/7 neurosurgical coverage|continuous neurosurgery
+    coverage policy}?
+  q_type: radio
+  short_name: neuro_247_coverage
+question_76:
+  category: neurosurgery
+  text: Is there a {neurosurgeon liaison|neurosurgery liaison role} designated to
+    the trauma program?
+  q_type: radio
+  short_name: neuro_liason
+question_77:
+  category: neurosurgery
+  text: Number of {neurosurgeons|neurosurgeon role} on the trauma panel?
+  q_type: int
+  short_name: neuro_total
+question_79:
+  category: neurosurgery
+  text: Number of neurosurgeons on the trauma panel who have documented 18 hours of
+    trauma-specific CME every three years?
+  q_type: int
+  short_name: neuro_cme
+question_80:
+  category: neurosurgery
+  text: Does the neurosurgeon liaison participate in 50% of the Trauma Peer Review
+    Committee meetings?
+  q_type: radio
+  short_name: neuro_peer_review
+question_81:
+  category: neurosurgery
+  text: Number of neurosurgeons who, when on call, take call exclusively for the trauma
+    center
+  q_type: int
+  short_name: neuro_exclusive
+question_82:
+  category: neurosurgery
+  text: Does your facility have a {neurosurgical backup plan|neurosurgeon backup call
+    schedule}?
+  q_type: radio
+  short_name: 
+question_83:
+  category: neurosurgery
+  text: Is the {back-up plan|neurosurgeon backup call schedule} approved by your TMD?
+  q_type: radio
+  short_name: 
+question_84:
+  category: neurosurgery
+  text: Does the facility have a {neurosurgery residency program|neurosurgery residency
+    program}?
+  q_type: radio
+  short_name: neuro_residency_program
+question_86:
+  category: neurosurgery
+  text: Is there a trauma-director approved plan that determines which types and severity
+    of neurologic injury patients should remain at the facility when no neurosurgical
+    coverage is present?
+  q_type: radio
+  short_name: 
+question_87:
+  category: anesthesiology
+  text: Does your facility provide {24/7 anesthesiology coverage|continuous anesthesiology
+    coverage policy}? (This may be fulfilled by an anesthesiologist, PGY4 or greater
+    anesthesia resident or a CRNA.)
+  q_type: radio
+  short_name: anesth_247_coverage
+question_91:
+  category: anesthesiology
+  text: Is there an {anesthesiologist liaison|anesthesiology liaison role} designated
+    to the trauma program?
+  q_type: radio
+  short_name: anesth_liason
+question_92:
+  category: anesthesiology
+  text: Is the availability of anesthesia services documented by the trauma QI program?
+  q_type: radio
+  short_name: anesth_documented_qi
+question_93:
+  category: anesthesiology
+  text: Number of {anesthesiologists|anesthesiologist role} on the trauma panel?
+  q_type: int
+  short_name: anesth_total
+question_94:
+  category: anesthesiology
+  text: Number of anesthesiologists taking call who have successfully completed an
+    {anesthesiology residency|anesthesiology residency program}?
+  q_type: int
+  short_name: anesth_residency
+question_98:
+  category: anesthesiology
+  text: How many CRNAs are used by the hospital?
+  q_type: int
+  short_name: 
+question_100:
+  category: trauma-program
+  text: Is there a person from the {EMS acting as a liaison|emergency medical services
+    liaison to trauma program} to the Trauma Program?
+  q_type: radio
+  short_name: 
+question_101:
+  category: emergency-medicine
+  text: Is there a {designated emergency physician|emergency department quality improvement
+    liaison to TMD role} available to the trauma medical director for QI issues that
+    occur in the emergency department?
+  q_type: radio
+  short_name: 
+question_102:
+  category: emergency-medicine
+  text: Does the {emergency medicine liaison|emergency medicine liaison role} have
+    the required verifiable 18 hours of trauma-specific education every three years?
+  q_type: radio
+  short_name: 
+question_103:
+  category: emergency-medicine
+  text: Does the emergency medicine liaison have a documented 50% attendance at the
+    {Trauma Peer Review Committee meetings|trauma peer review committee meeting}.
+  q_type: radio
+  short_name: 
+question_106:
+  category: emergency-medicine
+  text: Number of emergency physicians current in ATLS?
+  q_type: int
+  short_name: 
+question_107:
+  category: emergency-medicine
+  text: Number of emergency physicians who are {board certified in emergency medicine|board
+    certified emergency physician role}?
+  q_type: int
+  short_name: 
+question_108:
+  category: emergency-medicine
+  text: Number of physicians that are both board-certified in emergency medicine and
+    current in ATLS?
+  q_type: int
+  short_name: 
+question_109:
+  category: emergency-medicine
+  text: Does your organization provide for the presence of a board certified emergency
+    physician in the emergency department at all times?
+  q_type: radio
+  short_name: 
+question_110:
+  category: emergency-medicine
+  text: Does your institution have an {emergency medicine residency program|emergency
+    medicine residency program}?
+  q_type: radio
+  short_name: 
+question_111:
+  category: emergency-medicine
+  text: Are the roles of emergency physicians at your institution approved by the
+    trauma medical director?
+  q_type: radio
+  short_name: 
+question_115:
+  category: additional-specialties
+  text: For this Level I or Level II center, are all of the following medical specialists
+    available?
+  q_type: checkbox
+  short_name: 
+question_116:
+  category: additional-specialties
+  text: For this Level I or Level II center, are all of the following surgical specialists
+    available?
+  q_type: checkbox
+  short_name: 
+question_121:
+  category: emergency-medicine
+  text: Is there an {emergency department nursing liaison|emergency department nursing
+    liaison} designated to the trauma program?
+  q_type: radio
+  short_name: 
+question_124:
+  category: basic
+  text: Which {Trauma Center|trauma center} level is your institution?
+  q_type: combo
+  short_name: 
+question_129:
+  category: basic
+  text: Does your organization or the organization your organization is a part of
+    also have a {medical school|medical school role} as a part?
+  q_type: radio
+  short_name: 
+question_132:
+  category: regional-trauma-infrastructure
+  text: Does your institution provide medical direction for EMS operations?
+  q_type: radio
+  short_name: 
+question_133:
+  category: basic
+  text: Is any member of the trauma program involved in {prehospital training|prehospital
+    training}?
+  q_type: radio
+  short_name: 
+question_134:
+  category: basic
+  text: Does a trauma program representative participate in {prehospital protocol|prehospital
+    protocol} development|?
+  q_type: radio
+  short_name: 
+question_135:
+  category: emergency-medicine
+  text: Is there a representative from the {emergency department|emergency department}
+    that participates in a {QI program with pre-hospital providers|emergency medical
+    services quality improvement process}?
+  q_type: radio
+  short_name: 
+question_137:
+  category: trauma-medical-director
+  text: What is the medical specialty of your TMD?
+  q_type: combo
+  short_name: medical_speciality
+question_138:
+  category: trauma-medical-director
+  text: Who does the trauma medical director (TMD) report to?
+  q_type: checkbox
+  short_name: reporting
+question_140:
+  category: trauma-medical-director
+  text: Does the TMD have the authority to remove members from the trauma panel?
+  q_type: radio
+  short_name: fire_trauma_panel
+question_141:
+  category: emergency-medicine
+  text: Number of {emergency physicians|emergency physician role} in the trauma program?
+  q_type: int
+  short_name: 
+question_145:
+  category: orthopedic-surgery
+  text: Number of the orthopedic surgeons on the trauma panel who are {board-certified|board
+    certified orthopedic surgeon role}?
+  q_type: int
+  short_name: ortho_board_certified
+question_147:
+  category: trauma-program
+  text: Who is in the {trauma program leadership|trauma program leadership}?
+  q_type: checkbox
+  short_name: 
+question_148:
+  category: regional-trauma-infrastructure
+  text: Is your organization part of a {trauma system|trauma system}?
+  q_type: radio
+  short_name: 
+question_149:
+  category: regional-trauma-infrastructure
+  text: Is there a trauma system in the area your trauma program provides services?
+  q_type: radio
+  short_name: 
+question_150:
+  category: regional-trauma-infrastructure
+  text: How many {level 1 trauma centers|level 1 trauma center role} are in the area
+    your trauma program services?
+  q_type: int
+  short_name: 
+question_151:
+  category: regional-trauma-infrastructure
+  text: How many {level 2 trauma centers|level 2 trauma center role} are in the area
+    your trauma program services?
+  q_type: int
+  short_name: 
+question_152:
+  category: trauma-surgery
+  text: Number of trauma surgeons on the trauma panel who are {board-certified|board
+    certified trauma surgeon role}?
+  q_type: int
+  short_name: trauma_board_certified
+question_153:
+  category: emergency-medicine
+  text: Number of emergency physicians who are {board-eligible in emergency medicine|board
+    eligible emergency physician role}?
+  q_type: int
+  short_name: 
+question_155:
+  category: trauma-medical-director
+  text: Does the TMD comply with state licensure requirements?
+  q_type: radio
+  short_name: 
+question_156:
+  category: trauma-program-manager
+  text: Is the TPM responsible for coordination of the trauma quality improvement
+    and patient safety program?
+  q_type: radio
+  short_name: coordinating_quality_improvement
+question_158:
+  category: emergency-medicine
+  text: Does the emergency medicine liaison have documented 50% attendance of the
+    {trauma QI|trauma quality improvement and patient safety program} meetings.
+  q_type: radio
+  short_name: 
+question_159:
+  category: trauma-surgery
+  text: Are the roles of trauma surgeons at your institution approved by the trauma
+    medical director?
+  q_type: radio
+  short_name: trauma_approved_roles
+question_160:
+  category: basic
+  text: Is your organization part of efforts to create a trauma system?
+  q_type: radio
+  short_name: 
+question_161:
+  category: basic
+  text: Is your organization a {teaching hospital|teaching hospital role}?
+  q_type: radio
+  short_name: 
+question_162:
+  category: multidisciplinary-stakeholder-group
+  text: Are your efforts to create or run a trauma system aided by a {multidisciplinary
+    stakeholder group|multidisciplinary stakeholder group}?
+  q_type: radio
+  short_name: 
+question_163:
+  category: basic
+  text: Is your organization part of a trauma system?
+  q_type: radio
+  short_name: 
+question_165:
+  category: multidisciplinary-stakeholder-group
+  text: Is the operation of your trauma system informed by a multidisciplinary stakeholder
+    group?
+  q_type: radio
+  short_name: 
+question_166:
+  category: multidisciplinary-stakeholder-group
+  text: What organizations or individuals are member of your multidisciplinary stakeholder
+    group?
+  q_type: checkbox
+  short_name: 
+question_167:
+  category: multidisciplinary-stakeholder-group
+  text: Does the multidisciplinary stakeholder group have a regular {meeting scheduled|multidisciplinary
+    stakeholder group meeting schedule}?
+  q_type: radio
+  short_name: 
+question_168:
+  category: multidisciplinary-stakeholder-group
+  text: What is the frequency of the multidisciplinary stakeholder group meetings?
+  q_type: unit
+  short_name: 
+question_169:
+  category: multidisciplinary-stakeholder-group
+  text: Is the multidisciplinary stakeholder group involved in your trauma system’s
+    performance review?
+  q_type: radio
+  short_name: 
+question_170:
+  category: multidisciplinary-stakeholder-group
+  text: Does the multidisciplinary stakeholder group have a {performance review committee|performance
+    review committee}?
+  q_type: radio
+  short_name: 
+question_171:
+  category: governance
+  text: Has a {trauma lead agency|trauma lead agency} been identified?
+  q_type: radio
+  short_name: 
+question_172:
+  category: governance
+  text: Is the trauma lead agency a {government agency|government agency} or a {private
+    agency/enterprise|non-government organization}?
+  q_type: combo
+  short_name: 
+question_173:
+  category: governance
+  text: If it is a government lead agency, which part of the government?
+  q_type: combo
+  short_name: 
+question_174:
+  category: governance
+  text: Does the lead agency have the authority to create and enforce rules and regulations
+    for the trauma system?
+  q_type: radio
+  short_name: 
+question_175:
+  category: governance
+  text: What is the lead agency’s {budget|budget} for the trauma system?
+  q_type: unit
+  short_name: 
+question_176:
+  category: governance
+  text: How many full time positions at the lead agency are part of the trauma system
+    program?
+  q_type: int
+  short_name: 
+question_177:
+  category: organization
+  text: Does your trauma system have a {trauma system manager|trauma system manager
+    role}?
+  q_type: radio
+  short_name: 
+question_178:
+  category: organization
+  text: Is your trauma system manager part of the lead agency?
+  q_type: radio
+  short_name: 
+question_179:
+  category: organization
+  text: Does your trauma system have a trauma registrar?
+  q_type: radio
+  short_name: 
+question_180:
+  category: organization
+  text: Is your trauma registrar part of the lead agency?
+  q_type: radio
+  short_name: 
+question_181:
+  category: organization
+  text: Does your trauma system have a {performance improvement coordinator|performance
+    improvement coordinator role}?
+  q_type: radio
+  short_name: 
+question_182:
+  category: organization
+  text: Is your performance improvement coordinator part of the lead agency?
+  q_type: radio
+  short_name: 
+question_183:
+  category: trauma-system-plan
+  text: Does a {Trauma System Plan|trauma system plan specification} already exist?
+  q_type: radio
+  short_name: 
+question_184:
+  category: trauma-system-plan
+  text: How many month ago has the trauma system plan been signed off?
+  q_type: int
+  short_name: 
+question_185:
+  category: trauma-system-plan
+  text: Is there a {policy|trauma system plan development policy} that regulates the
+    development or revision of the trauma system plan?
+  q_type: radio
+  short_name: 
+question_186:
+  category: trauma-system-plan
+  text: If yes, is the multidisciplinary stakeholder group planned to participate
+    in those processes?
+  q_type: radio
+  short_name: 
+question_187:
+  category: basic
+  text: 'Your trauma system is:'
+  q_type: combo
+  short_name: 
+question_188:
+  category: trauma-system-plan
+  text: If yes, what kind of incentives (choose all that apply)?
+  q_type: checkbox
+  short_name: 
+question_189:
+  category: transport
+  text: How many {transporting agencies|trauma system participation incentive plan
+    specification} participate in your {EMS system|emergency medical services system}?
+  q_type: int
+  short_name: 
+question_190:
+  category: transport
+  text: How many non-transporting agencies participate in your EMS system?
+  q_type: int
+  short_name: 
+question_191:
+  category: transport
+  text: Does your EMS system include {air medical resources|air medical services agency}?
+  q_type: radio
+  short_name: 
+question_193:
+  category: transport
+  text: Are there any {specialty pediatric transporting agencies (ground)|emergency
+    medical services pediatric ground transportation agency}?
+  q_type: radio
+  short_name: 
+question_194:
+  category: transport
+  text: If yes, how many?
+  q_type: int
+  short_name: 
+question_195:
+  category: transport
+  text: Are there any {specialty pediatric air medical resources|emergency medical
+    services pediatric air transportation agency}?
+  q_type: radio
+  short_name: 
+question_196:
+  category: transport
+  text: If yes, how many?
+  q_type: int
+  short_name: 
+question_197:
+  category: transport
+  text: Are there {guidelines|emergency medical services online medical direction
+    guideline} for EMS personnel when to seek online medical directions?
+  q_type: radio
+  short_name: 
+question_198:
+  category: transport
+  text: Are there {protocols|emergency medical services offline medical direction
+    protocol} in place for offline medical directions to EMS personnel?
+  q_type: radio
+  short_name: 
+question_199:
+  category: specialized-centers
+  text: Number of burn centers within the trauma system?
+  q_type: int
+  short_name: 
+question_200:
+  category: specialized-centers
+  text: Is a {pediatric burn center|pediatric burn center role} available within the
+    trauma system?
+  q_type: radio
+  short_name: 
+question_201:
+  category: specialized-centers
+  text: Number of centers for traumatic brain injuries available within the trauma
+    system?
+  q_type: int
+  short_name: 
+question_202:
+  category: specialized-centers
+  text: Number of TBI rehabilitation facilities within the trauma system?
+  q_type: int
+  short_name: 
+question_203:
+  category: specialized-centers
+  text: Number of spinal cord injury centers available within the trauma system?
+  q_type: int
+  short_name: 
+question_204:
+  category: specialized-centers
+  text: Number of SCI rehabilitation facilities within the trauma system?
+  q_type: int
+  short_name: 
+question_205:
+  category: governance
+  text: Which organization provides {trauma center verification|trauma center verification}
+    in your area?
+  q_type: combo
+  short_name: 
+question_206:
+  category: trauma-system-plan
+  text: Has the trauma system plan already been {signed by the government or an government
+    agency|government-approved trauma system plan specification} (local, regional,
+    state level or national)?
+  q_type: radio
+  short_name: 
+question_207:
+  category: specialized-centers
+  text: Is there at least one {burn center|burn center role} available in your trauma
+    system?
+  q_type: radio
+  short_name: 
+question_208:
+  category: specialized-centers
+  text: Does your trauma system include at least one center for traumatic brain injuries?
+  q_type: radio
+  short_name: 
+question_209:
+  category: specialized-centers
+  text: Does your trauma system include at least one center for {TBI rehabilitation
+    facility|traumatic brain injury rehabilitation organization role}?
+  q_type: radio
+  short_name: 
+question_210:
+  category: specialized-centers
+  text: Does your trauma system include at least one {center for spinal cord injuries|spinal
+    cord injury center role}?
+  q_type: radio
+  short_name: 
+question_211:
+  category: specialized-centers
+  text: Does your trauma system include at least one {SCI rehabilitation facility|spinal
+    cord injury rehabilitation organization role}?
+  q_type: radio
+  short_name: 
+question_212:
+  category: trauma-system-plan
+  text: Are there {financial incentive plans|trauma system participation incentive
+    plan specification} to encourage trauma center participation in the trauma system?
+  q_type: radio
+  short_name: 
+question_213:
+  category: trauma-surgery
+  text: Is the {back-up plan|trauma surgeon backup call schedule} approved by your
+    TMD?
+  q_type: radio
+  short_name: trauma_backup_plan
+question_214:
+  category: neurosurgery
+  text: Number of the neurosurgeons on the trauma panel who are {board-eligible|board
+    eligible neurosurgeon role}?
+  q_type: int
+  short_name: neuro_board_eligible
+question_215:
+  category: neurosurgery
+  text: Number of the neurosurgeons on the trauma panel who are {board-certified|board
+    certified neurosurgeon role}?
+  q_type: int
+  short_name: neuro_board_certified
+question_216:
+  category: anesthesiology
+  text: Number of {board certified anesthesiologists|board certified anesthesiologist
+    role}  on the trauma panel?
+  q_type: int
+  short_name: anesth_board_certified

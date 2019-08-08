@@ -1,0 +1,1129 @@
+---
+question_1:yes:
+  text: 'Yes'
+  question: :question_1
+question_1:no:
+  text: 'No'
+  question: :question_1
+question_1:na:
+  text: N/A
+  question: :question_1
+question_7:yes:
+  text: 'Yes'
+  question: :question_7
+question_7:no:
+  text: 'No'
+  question: :question_7
+question_7:na:
+  text: N/A
+  question: :question_7
+question_8:yes:
+  text: 'Yes'
+  question: :question_8
+question_8:no:
+  text: 'No'
+  question: :question_8
+question_8:na:
+  text: N/A
+  question: :question_8
+question_9:yes:
+  text: 'Yes'
+  question: :question_9
+question_9:no:
+  text: 'No'
+  question: :question_9
+question_9:na:
+  text: N/A
+  question: :question_9
+question_10:yes:
+  text: 'Yes'
+  question: :question_10
+question_10:no:
+  text: 'No'
+  question: :question_10
+question_10:na:
+  text: N/A
+  question: :question_10
+question_11:yes:
+  text: 'Yes'
+  question: :question_11
+question_11:no:
+  text: 'No'
+  question: :question_11
+question_11:na:
+  text: N/A
+  question: :question_11
+question_12:yes:
+  text: 'Yes'
+  question: :question_12
+question_12:no:
+  text: 'No'
+  question: :question_12
+question_12:na:
+  text: N/A
+  question: :question_12
+question_14:yes:
+  text: 'Yes'
+  question: :question_14
+question_14:no:
+  text: 'No'
+  question: :question_14
+question_14:na:
+  text: N/A
+  question: :question_14
+question_15:yes:
+  text: 'Yes'
+  question: :question_15
+question_15:no:
+  text: 'No'
+  question: :question_15
+question_15:na:
+  text: N/A
+  question: :question_15
+question_19:yes:
+  text: 'Yes'
+  question: :question_19
+question_19:no:
+  text: 'No'
+  question: :question_19
+question_19:na:
+  text: N/A
+  question: :question_19
+question_20:option_78:
+  text: National trauma organization
+  question: :question_20
+question_20:option_79:
+  text: Regional trauma organization
+  question: :question_20
+question_21:yes:
+  text: 'Yes'
+  question: :question_21
+question_21:no:
+  text: 'No'
+  question: :question_21
+question_21:na:
+  text: N/A
+  question: :question_21
+question_22:yes:
+  text: 'Yes'
+  question: :question_22
+question_22:no:
+  text: 'No'
+  question: :question_22
+question_22:na:
+  text: N/A
+  question: :question_22
+question_24:yes:
+  text: 'Yes'
+  question: :question_24
+question_24:no:
+  text: 'No'
+  question: :question_24
+question_24:na:
+  text: N/A
+  question: :question_24
+question_25:yes:
+  text: 'Yes'
+  question: :question_25
+question_25:no:
+  text: 'No'
+  question: :question_25
+question_25:na:
+  text: N/A
+  question: :question_25
+question_26:yes:
+  text: 'Yes'
+  question: :question_26
+question_26:no:
+  text: 'No'
+  question: :question_26
+question_26:na:
+  text: N/A
+  question: :question_26
+question_27:yes:
+  text: 'Yes'
+  question: :question_27
+question_27:no:
+  text: 'No'
+  question: :question_27
+question_27:na:
+  text: N/A
+  question: :question_27
+question_28:option_91:
+  text: ATNC
+  question: :question_28
+question_28:option_92:
+  text: TNCC
+  question: :question_28
+question_30:yes:
+  text: 'Yes'
+  question: :question_30
+question_30:no:
+  text: 'No'
+  question: :question_30
+question_30:na:
+  text: N/A
+  question: :question_30
+question_31:option_8:
+  text: Other
+  question: :question_31
+question_31:option_66:
+  text: Head of Emergency Medicine
+  question: :question_31
+question_31:option_68:
+  text: Nurse Executive
+  question: :question_31
+question_31:option_67:
+  text: Trauma Medical Director
+  question: :question_31
+question_33:yes:
+  text: 'Yes'
+  question: :question_33
+question_33:no:
+  text: 'No'
+  question: :question_33
+question_33:na:
+  text: N/A
+  question: :question_33
+question_34:yes:
+  text: 'Yes'
+  question: :question_34
+question_34:no:
+  text: 'No'
+  question: :question_34
+question_34:na:
+  text: N/A
+  question: :question_34
+question_35:yes:
+  text: 'Yes'
+  question: :question_35
+question_35:no:
+  text: 'No'
+  question: :question_35
+question_35:na:
+  text: N/A
+  question: :question_35
+question_36:yes:
+  text: 'Yes'
+  question: :question_36
+question_36:no:
+  text: 'No'
+  question: :question_36
+question_36:na:
+  text: N/A
+  question: :question_36
+question_37:option_69:
+  text: Emergency Medicine
+  question: :question_37
+question_37:option_70:
+  text: Orthopedics
+  question: :question_37
+question_37:option_71:
+  text: Neurosurgery
+  question: :question_37
+question_37:option_72:
+  text: Anesthesiology
+  question: :question_37
+question_37:option_73:
+  text: Critical Care
+  question: :question_37
+question_37:option_74:
+  text: Radiology
+  question: :question_37
+question_41:yes:
+  text: 'Yes'
+  question: :question_41
+question_41:no:
+  text: 'No'
+  question: :question_41
+question_41:na:
+  text: N/A
+  question: :question_41
+question_42:int:
+  text: Number
+  question: :question_42
+question_43:int:
+  text: Number
+  question: :question_43
+question_44:int:
+  text: Number
+  question: :question_44
+question_45:int:
+  text: Number
+  question: :question_45
+question_46:int:
+  text: Number
+  question: :question_46
+question_47:int:
+  text: Number
+  question: :question_47
+question_48:int:
+  text: Number
+  question: :question_48
+question_54:int:
+  text: Number
+  question: :question_54
+question_56:int:
+  text: Number
+  question: :question_56
+question_57:yes:
+  text: 'Yes'
+  question: :question_57
+question_57:no:
+  text: 'No'
+  question: :question_57
+question_57:na:
+  text: N/A
+  question: :question_57
+question_58:int:
+  text: Number
+  question: :question_58
+question_59:int:
+  text: Number
+  question: :question_59
+question_60:yes:
+  text: 'Yes'
+  question: :question_60
+question_60:no:
+  text: 'No'
+  question: :question_60
+question_60:na:
+  text: N/A
+  question: :question_60
+question_61:yes:
+  text: 'Yes'
+  question: :question_61
+question_61:no:
+  text: 'No'
+  question: :question_61
+question_61:na:
+  text: N/A
+  question: :question_61
+question_62:int:
+  text: Number
+  question: :question_62
+question_63:yes:
+  text: 'Yes'
+  question: :question_63
+question_63:no:
+  text: 'No'
+  question: :question_63
+question_63:na:
+  text: N/A
+  question: :question_63
+question_64:int:
+  text: Number
+  question: :question_64
+question_65:int:
+  text: Number
+  question: :question_65
+question_67:int:
+  text: Number
+  question: :question_67
+question_68:yes:
+  text: 'Yes'
+  question: :question_68
+question_68:no:
+  text: 'No'
+  question: :question_68
+question_68:na:
+  text: N/A
+  question: :question_68
+question_69:yes:
+  text: 'Yes'
+  question: :question_69
+question_69:no:
+  text: 'No'
+  question: :question_69
+question_69:na:
+  text: N/A
+  question: :question_69
+question_70:option_28:
+  text: Hand Surgery
+  question: :question_70
+question_70:option_84:
+  text: Plastic Surgery
+  question: :question_70
+question_70:option_85:
+  text: Microvascular Surgery
+  question: :question_70
+question_70:option_86:
+  text: Spinal Injury Care
+  question: :question_70
+question_72:yes:
+  text: 'Yes'
+  question: :question_72
+question_72:no:
+  text: 'No'
+  question: :question_72
+question_72:na:
+  text: N/A
+  question: :question_72
+question_73:yes:
+  text: 'Yes'
+  question: :question_73
+question_73:no:
+  text: 'No'
+  question: :question_73
+question_73:na:
+  text: N/A
+  question: :question_73
+question_74:option_75:
+  text: Physical Therapist
+  question: :question_74
+question_74:option_76:
+  text: Occupational Therapist
+  question: :question_74
+question_74:option_77:
+  text: Rehabilitation Specialist
+  question: :question_74
+question_75:yes:
+  text: 'Yes'
+  question: :question_75
+question_75:no:
+  text: 'No'
+  question: :question_75
+question_75:na:
+  text: N/A
+  question: :question_75
+question_76:yes:
+  text: 'Yes'
+  question: :question_76
+question_76:no:
+  text: 'No'
+  question: :question_76
+question_76:na:
+  text: N/A
+  question: :question_76
+question_77:int:
+  text: Number
+  question: :question_77
+question_79:int:
+  text: Number
+  question: :question_79
+question_80:yes:
+  text: 'Yes'
+  question: :question_80
+question_80:no:
+  text: 'No'
+  question: :question_80
+question_80:na:
+  text: N/A
+  question: :question_80
+question_81:int:
+  text: Number
+  question: :question_81
+question_82:yes:
+  text: 'Yes'
+  question: :question_82
+question_82:no:
+  text: 'No'
+  question: :question_82
+question_82:na:
+  text: N/A
+  question: :question_82
+question_83:yes:
+  text: 'Yes'
+  question: :question_83
+question_83:no:
+  text: 'No'
+  question: :question_83
+question_83:na:
+  text: N/A
+  question: :question_83
+question_84:yes:
+  text: 'Yes'
+  question: :question_84
+question_84:no:
+  text: 'No'
+  question: :question_84
+question_84:na:
+  text: N/A
+  question: :question_84
+question_86:yes:
+  text: 'Yes'
+  question: :question_86
+question_86:no:
+  text: 'No'
+  question: :question_86
+question_86:na:
+  text: N/A
+  question: :question_86
+question_87:yes:
+  text: 'Yes'
+  question: :question_87
+question_87:no:
+  text: 'No'
+  question: :question_87
+question_87:na:
+  text: N/A
+  question: :question_87
+question_91:yes:
+  text: 'Yes'
+  question: :question_91
+question_91:no:
+  text: 'No'
+  question: :question_91
+question_91:na:
+  text: N/A
+  question: :question_91
+question_92:yes:
+  text: 'Yes'
+  question: :question_92
+question_92:no:
+  text: 'No'
+  question: :question_92
+question_92:na:
+  text: N/A
+  question: :question_92
+question_93:int:
+  text: Number
+  question: :question_93
+question_94:int:
+  text: Number
+  question: :question_94
+question_98:int:
+  text: Number
+  question: :question_98
+question_100:yes:
+  text: 'Yes'
+  question: :question_100
+question_100:no:
+  text: 'No'
+  question: :question_100
+question_100:na:
+  text: N/A
+  question: :question_100
+question_101:yes:
+  text: 'Yes'
+  question: :question_101
+question_101:no:
+  text: 'No'
+  question: :question_101
+question_101:na:
+  text: N/A
+  question: :question_101
+question_102:yes:
+  text: 'Yes'
+  question: :question_102
+question_102:no:
+  text: 'No'
+  question: :question_102
+question_102:na:
+  text: N/A
+  question: :question_102
+question_103:yes:
+  text: 'Yes'
+  question: :question_103
+question_103:no:
+  text: 'No'
+  question: :question_103
+question_103:na:
+  text: N/A
+  question: :question_103
+question_106:int:
+  text: Number
+  question: :question_106
+question_107:int:
+  text: Number
+  question: :question_107
+question_108:int:
+  text: Number
+  question: :question_108
+question_109:yes:
+  text: 'Yes'
+  question: :question_109
+question_109:no:
+  text: 'No'
+  question: :question_109
+question_109:na:
+  text: N/A
+  question: :question_109
+question_110:yes:
+  text: 'Yes'
+  question: :question_110
+question_110:no:
+  text: 'No'
+  question: :question_110
+question_110:na:
+  text: N/A
+  question: :question_110
+question_111:yes:
+  text: 'Yes'
+  question: :question_111
+question_111:no:
+  text: 'No'
+  question: :question_111
+question_111:na:
+  text: N/A
+  question: :question_111
+question_115:option_9:
+  text: Critical Care Medicine
+  question: :question_115
+question_115:option_10:
+  text: Pathology
+  question: :question_115
+question_115:option_12:
+  text: Interventional Radiology
+  question: :question_115
+question_115:option_13:
+  text: Pediatrics
+  question: :question_115
+question_115:option_14:
+  text: Cardiology
+  question: :question_115
+question_115:option_15:
+  text: Nephrology
+  question: :question_115
+question_115:option_93:
+  text: Pulmonology
+  question: :question_115
+question_116:option_16:
+  text: Urology
+  question: :question_116
+question_116:option_19:
+  text: Maxillofacial Coverage
+  question: :question_116
+question_116:option_20:
+  text: Plastics/Reconstructive
+  question: :question_116
+question_116:option_21:
+  text: Ophthalmology
+  question: :question_116
+question_116:option_23:
+  text: Cardiac Surgery
+  question: :question_116
+question_116:option_28:
+  text: Hand Surgery
+  question: :question_116
+question_116:option_94:
+  text: Gynecology
+  question: :question_116
+question_121:yes:
+  text: 'Yes'
+  question: :question_121
+question_121:no:
+  text: 'No'
+  question: :question_121
+question_121:na:
+  text: N/A
+  question: :question_121
+question_129:yes:
+  text: 'Yes'
+  question: :question_129
+question_129:no:
+  text: 'No'
+  question: :question_129
+question_129:na:
+  text: N/A
+  question: :question_129
+question_132:yes:
+  text: 'Yes'
+  question: :question_132
+question_132:no:
+  text: 'No'
+  question: :question_132
+question_132:na:
+  text: N/A
+  question: :question_132
+question_133:yes:
+  text: 'Yes'
+  question: :question_133
+question_133:no:
+  text: 'No'
+  question: :question_133
+question_133:na:
+  text: N/A
+  question: :question_133
+question_134:yes:
+  text: 'Yes'
+  question: :question_134
+question_134:no:
+  text: 'No'
+  question: :question_134
+question_134:na:
+  text: N/A
+  question: :question_134
+question_135:yes:
+  text: 'Yes'
+  question: :question_135
+question_135:no:
+  text: 'No'
+  question: :question_135
+question_135:na:
+  text: N/A
+  question: :question_135
+question_138:option_51:
+  text: Hospital Board
+  question: :question_138
+question_138:option_53:
+  text: Chief Executive Officer
+  question: :question_138
+question_138:option_54:
+  text: Chief Medical Officer
+  question: :question_138
+question_138:option_55:
+  text: Head of Clinical Services
+  question: :question_138
+question_140:yes:
+  text: 'Yes'
+  question: :question_140
+question_140:no:
+  text: 'No'
+  question: :question_140
+question_140:na:
+  text: N/A
+  question: :question_140
+question_141:int:
+  text: Number
+  question: :question_141
+question_145:int:
+  text: Number
+  question: :question_145
+question_147:option_8:
+  text: Other
+  question: :question_147
+question_147:option_54:
+  text: Chief Medical Officer
+  question: :question_147
+question_147:option_87:
+  text: Trauma Program Manager
+  question: :question_147
+question_147:option_67:
+  text: Trauma Medical Director
+  question: :question_147
+question_148:yes:
+  text: 'Yes'
+  question: :question_148
+question_148:no:
+  text: 'No'
+  question: :question_148
+question_148:na:
+  text: N/A
+  question: :question_148
+question_149:yes:
+  text: 'Yes'
+  question: :question_149
+question_149:no:
+  text: 'No'
+  question: :question_149
+question_149:na:
+  text: N/A
+  question: :question_149
+question_150:int:
+  text: Number
+  question: :question_150
+question_151:int:
+  text: Number
+  question: :question_151
+question_152:int:
+  text: Number
+  question: :question_152
+question_153:int:
+  text: Number
+  question: :question_153
+question_155:yes:
+  text: 'Yes'
+  question: :question_155
+question_155:no:
+  text: 'No'
+  question: :question_155
+question_155:na:
+  text: N/A
+  question: :question_155
+question_156:yes:
+  text: 'Yes'
+  question: :question_156
+question_156:no:
+  text: 'No'
+  question: :question_156
+question_156:na:
+  text: N/A
+  question: :question_156
+question_158:yes:
+  text: 'Yes'
+  question: :question_158
+question_158:no:
+  text: 'No'
+  question: :question_158
+question_158:na:
+  text: N/A
+  question: :question_158
+question_159:yes:
+  text: 'Yes'
+  question: :question_159
+question_159:no:
+  text: 'No'
+  question: :question_159
+question_159:na:
+  text: N/A
+  question: :question_159
+question_160:yes:
+  text: 'Yes'
+  question: :question_160
+question_160:no:
+  text: 'No'
+  question: :question_160
+question_160:na:
+  text: N/A
+  question: :question_160
+question_161:yes:
+  text: 'Yes'
+  question: :question_161
+question_161:no:
+  text: 'No'
+  question: :question_161
+question_161:na:
+  text: N/A
+  question: :question_161
+question_162:yes:
+  text: 'Yes'
+  question: :question_162
+question_162:no:
+  text: 'No'
+  question: :question_162
+question_162:na:
+  text: N/A
+  question: :question_162
+question_163:yes:
+  text: 'Yes'
+  question: :question_163
+question_163:no:
+  text: 'No'
+  question: :question_163
+question_163:na:
+  text: N/A
+  question: :question_163
+question_165:yes:
+  text: 'Yes'
+  question: :question_165
+question_165:no:
+  text: 'No'
+  question: :question_165
+question_165:na:
+  text: N/A
+  question: :question_165
+question_166:option_8:
+  text: Other
+  question: :question_166
+question_166:option_96:
+  text: Hospital Association
+  question: :question_166
+question_166:option_97:
+  text: Medical Association
+  question: :question_166
+question_166:option_98:
+  text: Nurses Association
+  question: :question_166
+question_166:option_100:
+  text: EMS Provider Association
+  question: :question_166
+question_166:option_101:
+  text: EMS Agency Association
+  question: :question_166
+question_166:option_102:
+  text: American College of Surgeons representative
+  question: :question_166
+question_166:option_103:
+  text: American College of Emergency Physicians representative
+  question: :question_166
+question_167:yes:
+  text: 'Yes'
+  question: :question_167
+question_167:no:
+  text: 'No'
+  question: :question_167
+question_167:na:
+  text: N/A
+  question: :question_167
+question_169:yes:
+  text: 'Yes'
+  question: :question_169
+question_169:no:
+  text: 'No'
+  question: :question_169
+question_169:na:
+  text: N/A
+  question: :question_169
+question_170:yes:
+  text: 'Yes'
+  question: :question_170
+question_170:no:
+  text: 'No'
+  question: :question_170
+question_170:na:
+  text: N/A
+  question: :question_170
+question_171:yes:
+  text: 'Yes'
+  question: :question_171
+question_171:no:
+  text: 'No'
+  question: :question_171
+question_171:na:
+  text: N/A
+  question: :question_171
+question_174:yes:
+  text: 'Yes'
+  question: :question_174
+question_174:no:
+  text: 'No'
+  question: :question_174
+question_174:na:
+  text: N/A
+  question: :question_174
+question_176:int:
+  text: Number
+  question: :question_176
+question_177:yes:
+  text: 'Yes'
+  question: :question_177
+question_177:no:
+  text: 'No'
+  question: :question_177
+question_177:na:
+  text: N/A
+  question: :question_177
+question_178:yes:
+  text: 'Yes'
+  question: :question_178
+question_178:no:
+  text: 'No'
+  question: :question_178
+question_178:na:
+  text: N/A
+  question: :question_178
+question_179:yes:
+  text: 'Yes'
+  question: :question_179
+question_179:no:
+  text: 'No'
+  question: :question_179
+question_179:na:
+  text: N/A
+  question: :question_179
+question_180:yes:
+  text: 'Yes'
+  question: :question_180
+question_180:no:
+  text: 'No'
+  question: :question_180
+question_180:na:
+  text: N/A
+  question: :question_180
+question_181:yes:
+  text: 'Yes'
+  question: :question_181
+question_181:no:
+  text: 'No'
+  question: :question_181
+question_181:na:
+  text: N/A
+  question: :question_181
+question_182:yes:
+  text: 'Yes'
+  question: :question_182
+question_182:no:
+  text: 'No'
+  question: :question_182
+question_182:na:
+  text: N/A
+  question: :question_182
+question_183:yes:
+  text: 'Yes'
+  question: :question_183
+question_183:no:
+  text: 'No'
+  question: :question_183
+question_183:na:
+  text: N/A
+  question: :question_183
+question_184:int:
+  text: Number
+  question: :question_184
+question_185:yes:
+  text: 'Yes'
+  question: :question_185
+question_185:no:
+  text: 'No'
+  question: :question_185
+question_185:na:
+  text: N/A
+  question: :question_185
+question_186:yes:
+  text: 'Yes'
+  question: :question_186
+question_186:no:
+  text: 'No'
+  question: :question_186
+question_186:na:
+  text: N/A
+  question: :question_186
+question_188:option_113:
+  text: Direct
+  question: :question_188
+question_188:option_114:
+  text: Indirect
+  question: :question_188
+question_189:int:
+  text: Number
+  question: :question_189
+question_190:int:
+  text: Number
+  question: :question_190
+question_191:yes:
+  text: 'Yes'
+  question: :question_191
+question_191:no:
+  text: 'No'
+  question: :question_191
+question_191:na:
+  text: N/A
+  question: :question_191
+question_193:yes:
+  text: 'Yes'
+  question: :question_193
+question_193:no:
+  text: 'No'
+  question: :question_193
+question_193:na:
+  text: N/A
+  question: :question_193
+question_194:int:
+  text: Number
+  question: :question_194
+question_195:yes:
+  text: 'Yes'
+  question: :question_195
+question_195:no:
+  text: 'No'
+  question: :question_195
+question_195:na:
+  text: N/A
+  question: :question_195
+question_196:int:
+  text: Number
+  question: :question_196
+question_197:yes:
+  text: 'Yes'
+  question: :question_197
+question_197:no:
+  text: 'No'
+  question: :question_197
+question_197:na:
+  text: N/A
+  question: :question_197
+question_198:yes:
+  text: 'Yes'
+  question: :question_198
+question_198:no:
+  text: 'No'
+  question: :question_198
+question_198:na:
+  text: N/A
+  question: :question_198
+question_199:int:
+  text: Number
+  question: :question_199
+question_200:yes:
+  text: 'Yes'
+  question: :question_200
+question_200:no:
+  text: 'No'
+  question: :question_200
+question_200:na:
+  text: N/A
+  question: :question_200
+question_201:int:
+  text: Number
+  question: :question_201
+question_202:int:
+  text: Number
+  question: :question_202
+question_203:int:
+  text: Number
+  question: :question_203
+question_204:int:
+  text: Number
+  question: :question_204
+question_206:yes:
+  text: 'Yes'
+  question: :question_206
+question_206:no:
+  text: 'No'
+  question: :question_206
+question_206:na:
+  text: N/A
+  question: :question_206
+question_207:yes:
+  text: 'Yes'
+  question: :question_207
+question_207:no:
+  text: 'No'
+  question: :question_207
+question_207:na:
+  text: N/A
+  question: :question_207
+question_208:yes:
+  text: 'Yes'
+  question: :question_208
+question_208:no:
+  text: 'No'
+  question: :question_208
+question_208:na:
+  text: N/A
+  question: :question_208
+question_209:yes:
+  text: 'Yes'
+  question: :question_209
+question_209:no:
+  text: 'No'
+  question: :question_209
+question_209:na:
+  text: N/A
+  question: :question_209
+question_210:yes:
+  text: 'Yes'
+  question: :question_210
+question_210:no:
+  text: 'No'
+  question: :question_210
+question_210:na:
+  text: N/A
+  question: :question_210
+question_211:yes:
+  text: 'Yes'
+  question: :question_211
+question_211:no:
+  text: 'No'
+  question: :question_211
+question_211:na:
+  text: N/A
+  question: :question_211
+question_212:yes:
+  text: 'Yes'
+  question: :question_212
+question_212:no:
+  text: 'No'
+  question: :question_212
+question_212:na:
+  text: N/A
+  question: :question_212
+question_213:yes:
+  text: 'Yes'
+  question: :question_213
+question_213:no:
+  text: 'No'
+  question: :question_213
+question_213:na:
+  text: N/A
+  question: :question_213
+question_214:int:
+  text: Number
+  question: :question_214
+question_215:int:
+  text: Number
+  question: :question_215
+question_216:int:
+  text: Number
+  question: :question_216
